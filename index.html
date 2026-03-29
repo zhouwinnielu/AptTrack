@@ -21,7 +21,10 @@
         --shadow: 0 16px 36px rgba(74, 48, 26, 0.12);
       }
 
-      * { box-sizing: border-box; }
+      * {
+        box-sizing: border-box;
+      }
+
       body {
         margin: 0;
         font-family: "Avenir Next", "Segoe UI", sans-serif;
@@ -32,66 +35,282 @@
           radial-gradient(circle at top right, rgba(47, 111, 79, 0.16), transparent 26%),
           linear-gradient(180deg, #f7efe6 0%, #efe6dc 100%);
       }
-      .shell { width: min(1180px, calc(100% - 28px)); margin: 24px auto 40px; }
-      .hero, .panel {
+
+      .shell {
+        width: min(1180px, calc(100% - 28px));
+        margin: 24px auto 40px;
+      }
+
+      .hero,
+      .panel {
         background: var(--panel);
         border: 1px solid rgba(255, 255, 255, 0.5);
         border-radius: 24px;
         box-shadow: var(--shadow);
         backdrop-filter: blur(12px);
       }
-      .hero { padding: 28px; position: relative; overflow: hidden; }
+
+      .hero {
+        padding: 28px;
+        position: relative;
+        overflow: hidden;
+      }
+
       .hero::after {
-        content: ""; position: absolute; top: -72px; right: -44px; width: 220px; height: 220px; border-radius: 999px; background: rgba(181, 84, 45, 0.08);
+        content: "";
+        position: absolute;
+        top: -72px;
+        right: -44px;
+        width: 220px;
+        height: 220px;
+        border-radius: 999px;
+        background: rgba(181, 84, 45, 0.08);
       }
-      .hero-grid, .summary-grid, .controls-grid, .stack { display: grid; gap: 16px; }
-      .hero-grid { grid-template-columns: 1.7fr 1fr; position: relative; z-index: 1; }
-      .summary-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); margin: 18px 0; }
-      .summary-card, .note {
-        background: var(--panel-strong); border: 1px solid rgba(31, 41, 51, 0.08); border-radius: 18px; padding: 18px;
+
+      .hero-grid,
+      .summary-grid,
+      .controls-grid,
+      .stack {
+        display: grid;
+        gap: 16px;
       }
-      .summary-label { font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); }
-      .summary-value { margin-top: 8px; font-size: clamp(1.7rem, 3vw, 2.4rem); font-weight: 700; letter-spacing: -0.04em; }
-      .summary-sub { margin-top: 6px; color: var(--muted); font-size: 0.93rem; }
-      h1, h2 { margin: 0 0 10px; }
-      h1 { font-size: clamp(2rem, 4vw, 3.25rem); line-height: 1; letter-spacing: -0.04em; }
-      h2 { font-size: 1.1rem; }
-      p { margin: 0; color: var(--muted); line-height: 1.55; }
-      .chip-row, .button-row, .meta-row { display: flex; flex-wrap: wrap; gap: 10px; }
-      .meta-row { align-items: center; justify-content: space-between; margin-top: 14px; }
+
+      .hero-grid {
+        grid-template-columns: 1.7fr 1fr;
+        position: relative;
+        z-index: 1;
+      }
+
+      .summary-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        margin: 18px 0;
+      }
+
+      .summary-card,
+      .note {
+        background: var(--panel-strong);
+        border: 1px solid rgba(31, 41, 51, 0.08);
+        border-radius: 18px;
+        padding: 18px;
+      }
+
+      .summary-label {
+        font-size: 0.82rem;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        color: var(--muted);
+      }
+
+      .summary-value {
+        margin-top: 8px;
+        font-size: clamp(1.7rem, 3vw, 2.4rem);
+        font-weight: 700;
+        letter-spacing: -0.04em;
+      }
+
+      .summary-sub {
+        margin-top: 6px;
+        color: var(--muted);
+        font-size: 0.93rem;
+      }
+
+      h1,
+      h2 {
+        margin: 0 0 10px;
+      }
+
+      h1 {
+        font-size: clamp(2rem, 4vw, 3.25rem);
+        line-height: 1;
+        letter-spacing: -0.04em;
+      }
+
+      h2 {
+        font-size: 1.1rem;
+      }
+
+      p {
+        margin: 0;
+        color: var(--muted);
+        line-height: 1.55;
+      }
+
+      .chip-row,
+      .button-row,
+      .meta-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+
+      .meta-row {
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 14px;
+      }
+
       .chip {
-        display: inline-flex; align-items: center; border-radius: 999px; background: rgba(255, 255, 255, 0.74); border: 1px solid rgba(31, 41, 51, 0.08); padding: 9px 14px; font-size: 0.93rem;
+        display: inline-flex;
+        align-items: center;
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.74);
+        border: 1px solid rgba(31, 41, 51, 0.08);
+        padding: 9px 14px;
+        font-size: 0.93rem;
       }
-      .note { color: #5d351f; background: var(--accent-soft); }
-      .panel { padding: 20px; }
-      .stack { grid-template-columns: 1fr; }
-      .controls-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); margin-top: 14px; }
-      label { display: grid; gap: 8px; font-size: 0.94rem; }
-      input, select, button { font: inherit; }
-      input, select {
-        width: 100%; border: 1px solid rgba(31, 41, 51, 0.14); border-radius: 12px; background: rgba(255, 255, 255, 0.9); padding: 12px 14px; color: var(--ink);
+
+      .note {
+        color: #5d351f;
+        background: var(--accent-soft);
       }
-      button, .button-link {
-        appearance: none; border: 0; border-radius: 12px; padding: 11px 16px; font-weight: 600; cursor: pointer; transition: transform 160ms ease, background 160ms ease; text-decoration: none;
+
+      .panel {
+        padding: 20px;
       }
-      button:hover, .button-link:hover { transform: translateY(-1px); }
-      .primary { background: var(--accent); color: #fff; }
-      .primary:hover { background: var(--accent-dark); }
-      .secondary { background: rgba(31, 41, 51, 0.08); color: var(--ink); }
-      .status { padding: 12px 14px; border-radius: 12px; margin-top: 14px; background: rgba(47, 111, 79, 0.1); color: var(--ok); font-size: 0.94rem; }
-      .status.warn { background: rgba(143, 91, 0, 0.12); color: var(--warn); }
-      .table-wrap { margin-top: 16px; overflow: auto; border-radius: 18px; border: 1px solid var(--line); }
-      table { width: 100%; min-width: 920px; border-collapse: collapse; background: rgba(255, 255, 255, 0.78); }
-      th, td { text-align: left; padding: 14px 16px; border-bottom: 1px solid var(--line); vertical-align: top; }
-      th { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); background: rgba(255, 248, 239, 0.95); }
-      tr:last-child td { border-bottom: 0; }
-      a { color: var(--accent-dark); }
-      .muted { color: var(--muted); }
-      .empty { text-align: center; padding: 28px; color: var(--muted); }
-      .delta-up { color: var(--danger); }
-      .delta-down { color: var(--ok); }
-      .delta-flat { color: var(--muted); }
-      @media (max-width: 980px) { .hero-grid, .summary-grid, .controls-grid { grid-template-columns: 1fr; } }
+
+      .stack {
+        grid-template-columns: 1fr;
+      }
+
+      .controls-grid {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        margin-top: 14px;
+      }
+
+      label {
+        display: grid;
+        gap: 8px;
+        font-size: 0.94rem;
+      }
+
+      input,
+      select,
+      button {
+        font: inherit;
+      }
+
+      input,
+      select {
+        width: 100%;
+        border: 1px solid rgba(31, 41, 51, 0.14);
+        border-radius: 12px;
+        background: rgba(255, 255, 255, 0.9);
+        padding: 12px 14px;
+        color: var(--ink);
+      }
+
+      button,
+      .button-link {
+        appearance: none;
+        border: 0;
+        border-radius: 12px;
+        padding: 11px 16px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: transform 160ms ease, background 160ms ease;
+        text-decoration: none;
+      }
+
+      button:hover,
+      .button-link:hover {
+        transform: translateY(-1px);
+      }
+
+      .primary {
+        background: var(--accent);
+        color: #fff;
+      }
+
+      .primary:hover {
+        background: var(--accent-dark);
+      }
+
+      .secondary {
+        background: rgba(31, 41, 51, 0.08);
+        color: var(--ink);
+      }
+
+      .status {
+        padding: 12px 14px;
+        border-radius: 12px;
+        margin-top: 14px;
+        background: rgba(47, 111, 79, 0.1);
+        color: var(--ok);
+        font-size: 0.94rem;
+      }
+
+      .status.warn {
+        background: rgba(143, 91, 0, 0.12);
+        color: var(--warn);
+      }
+
+      .table-wrap {
+        margin-top: 16px;
+        overflow: auto;
+        border-radius: 18px;
+        border: 1px solid var(--line);
+      }
+
+      table {
+        width: 100%;
+        min-width: 920px;
+        border-collapse: collapse;
+        background: rgba(255, 255, 255, 0.78);
+      }
+
+      th,
+      td {
+        text-align: left;
+        padding: 14px 16px;
+        border-bottom: 1px solid var(--line);
+        vertical-align: top;
+      }
+
+      th {
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        color: var(--muted);
+        background: rgba(255, 248, 239, 0.95);
+      }
+
+      tr:last-child td {
+        border-bottom: 0;
+      }
+
+      a {
+        color: var(--accent-dark);
+      }
+
+      .muted {
+        color: var(--muted);
+      }
+
+      .empty {
+        text-align: center;
+        padding: 28px;
+        color: var(--muted);
+      }
+
+      .delta-up {
+        color: var(--danger);
+      }
+
+      .delta-down {
+        color: var(--ok);
+      }
+
+      .delta-flat {
+        color: var(--muted);
+      }
+
+      @media (max-width: 980px) {
+        .hero-grid,
+        .summary-grid,
+        .controls-grid {
+          grid-template-columns: 1fr;
+        }
+      }
     </style>
   </head>
   <body>
@@ -119,58 +338,398 @@
           </div>
         </div>
       </section>
+
       <section class="summary-grid" aria-label="summary">
-        <article class="summary-card"><div class="summary-label">Current Units</div><div class="summary-value" id="countValue">-</div><div class="summary-sub" id="countSub">Loading tracked data...</div></article>
-        <article class="summary-card"><div class="summary-label">Lowest Price</div><div class="summary-value" id="priceValue">-</div><div class="summary-sub" id="priceSub">Waiting for latest data.</div></article>
-        <article class="summary-card"><div class="summary-label">Earliest Start</div><div class="summary-value" id="dateValue">-</div><div class="summary-sub" id="dateSub">Waiting for latest data.</div></article>
+        <article class="summary-card">
+          <div class="summary-label">Current Units</div>
+          <div class="summary-value" id="countValue">-</div>
+          <div class="summary-sub" id="countSub">Loading tracked data...</div>
+        </article>
+        <article class="summary-card">
+          <div class="summary-label">Lowest Price</div>
+          <div class="summary-value" id="priceValue">-</div>
+          <div class="summary-sub" id="priceSub">Waiting for latest data.</div>
+        </article>
+        <article class="summary-card">
+          <div class="summary-label">Earliest Start</div>
+          <div class="summary-value" id="dateValue">-</div>
+          <div class="summary-sub" id="dateSub">Waiting for latest data.</div>
+        </article>
       </section>
+
       <section class="stack">
         <section class="panel">
           <h2>Current Listings</h2>
-          <p>This table shows the most recent stored scrape, including previous price and historical price range for each currently listed unit.</p>
+          <p>
+            This table shows the most recent stored scrape, including previous price and historical
+            price range for each currently listed unit.
+          </p>
+
           <div class="controls-grid">
-            <label>Search unit or floor plan<input id="searchInput" type="search" placeholder="132, A2, Signature..." /></label>
-            <label>Sort by<select id="sortSelect"><option value="date-asc">Start date, earliest first</option><option value="price-asc">Price, lowest first</option><option value="lease-asc">Lease term, shortest first</option><option value="sqft-desc">Square feet, largest first</option></select></label>
-            <label>Max price<input id="maxPriceInput" type="number" min="0" step="1" placeholder="Optional" /></label>
-            <label>Start on or after<input id="minDateInput" type="date" /></label>
+            <label>
+              Search unit or floor plan
+              <input id="searchInput" type="search" placeholder="132, A2, Signature..." />
+            </label>
+            <label>
+              Sort by
+              <select id="sortSelect">
+                <option value="date-asc">Start date, earliest first</option>
+                <option value="price-asc">Price, lowest first</option>
+                <option value="lease-asc">Lease term, shortest first</option>
+                <option value="sqft-desc">Square feet, largest first</option>
+              </select>
+            </label>
+            <label>
+              Max price
+              <input id="maxPriceInput" type="number" min="0" step="1" placeholder="Optional" />
+            </label>
+            <label>
+              Start on or after
+              <input id="minDateInput" type="date" />
+            </label>
           </div>
-          <div class="meta-row"><div class="button-row"><button class="primary" id="reloadButton" type="button">Reload Data</button><a class="button-link secondary" href="https://github.com/zhouwinnielu/AptTrack" target="_blank" rel="noreferrer">Open Repo</a></div><div class="muted" id="metaText">Last snapshot: loading...</div></div>
-          <div class="status" id="status" role="status" aria-live="polite">Loading generated tracker data...</div>
-          <div class="table-wrap"><table><thead><tr><th>Unit</th><th>Price</th><th>Previous</th><th>Change</th><th>Lease</th><th>Start Date</th><th>Sq Ft</th><th>History</th><th>Listing</th></tr></thead><tbody id="tableBody"><tr><td colspan="9" class="empty">Loading stored unit data...</td></tr></tbody></table></div>
+
+          <div class="meta-row">
+            <div class="button-row">
+              <button class="primary" id="reloadButton" type="button">Reload Data</button>
+              <a class="button-link secondary" href="https://github.com/zhouwinnielu/AptTrack" target="_blank" rel="noreferrer">Open Repo</a>
+            </div>
+            <div class="muted" id="metaText">Last checked: loading...</div>
+          </div>
+
+          <div class="status" id="status" role="status" aria-live="polite">
+            Loading generated tracker data...
+          </div>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Unit</th>
+                  <th>Price</th>
+                  <th>Previous</th>
+                  <th>Change</th>
+                  <th>Lease</th>
+                  <th>Start Date</th>
+                  <th>Sq Ft</th>
+                  <th>History</th>
+                  <th>Listing</th>
+                </tr>
+              </thead>
+              <tbody id="tableBody">
+                <tr>
+                  <td colspan="9" class="empty">Loading stored unit data...</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </section>
+
         <section class="panel">
           <h2>Price History</h2>
-          <p>These rows include all units seen in prior scrapes, even if they are not currently listed right now.</p>
-          <div class="table-wrap"><table><thead><tr><th>Unit</th><th>Latest</th><th>Min</th><th>Max</th><th>Previous</th><th>Change</th><th>First Seen</th><th>Last Seen</th><th>Obs.</th></tr></thead><tbody id="historyBody"><tr><td colspan="9" class="empty">Loading price history...</td></tr></tbody></table></div>
+          <p>
+            These rows include all units seen in prior scrapes, even if they are not currently
+            listed right now.
+          </p>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Unit</th>
+                  <th>Latest</th>
+                  <th>Min</th>
+                  <th>Max</th>
+                  <th>Previous</th>
+                  <th>Change</th>
+                  <th>First Seen</th>
+                  <th>Last Seen</th>
+                  <th>Obs.</th>
+                </tr>
+              </thead>
+              <tbody id="historyBody">
+                <tr>
+                  <td colspan="9" class="empty">Loading price history...</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </section>
       </section>
     </main>
+
     <script>
-      const state = { units: [], history: [], generatedAt: "", sourceUrl: "" };
-      const els = { countValue: document.getElementById("countValue"), countSub: document.getElementById("countSub"), priceValue: document.getElementById("priceValue"), priceSub: document.getElementById("priceSub"), dateValue: document.getElementById("dateValue"), dateSub: document.getElementById("dateSub"), searchInput: document.getElementById("searchInput"), sortSelect: document.getElementById("sortSelect"), maxPriceInput: document.getElementById("maxPriceInput"), minDateInput: document.getElementById("minDateInput"), reloadButton: document.getElementById("reloadButton"), metaText: document.getElementById("metaText"), status: document.getElementById("status"), tableBody: document.getElementById("tableBody"), historyBody: document.getElementById("historyBody") };
-      bindEvents(); loadData();
-      function bindEvents() { els.reloadButton.addEventListener("click", loadData); [els.searchInput, els.sortSelect, els.maxPriceInput, els.minDateInput].forEach((control) => control.addEventListener("input", render)); }
+      const state = {
+        units: [],
+        history: [],
+        generatedAt: "",
+        sourceUrl: "",
+      };
+
+      const els = {
+        countValue: document.getElementById("countValue"),
+        countSub: document.getElementById("countSub"),
+        priceValue: document.getElementById("priceValue"),
+        priceSub: document.getElementById("priceSub"),
+        dateValue: document.getElementById("dateValue"),
+        dateSub: document.getElementById("dateSub"),
+        searchInput: document.getElementById("searchInput"),
+        sortSelect: document.getElementById("sortSelect"),
+        maxPriceInput: document.getElementById("maxPriceInput"),
+        minDateInput: document.getElementById("minDateInput"),
+        reloadButton: document.getElementById("reloadButton"),
+        metaText: document.getElementById("metaText"),
+        status: document.getElementById("status"),
+        tableBody: document.getElementById("tableBody"),
+        historyBody: document.getElementById("historyBody"),
+      };
+
+      bindEvents();
+      loadData();
+
+      function bindEvents() {
+        els.reloadButton.addEventListener("click", loadData);
+        [els.searchInput, els.sortSelect, els.maxPriceInput, els.minDateInput].forEach((control) =>
+          control.addEventListener("input", render)
+        );
+      }
+
       async function loadData() {
         setStatus("Loading generated tracker data...", false);
         try {
-          const [latest, history] = await Promise.all([fetchJson("data/latest.json"), fetchJson("data/history.json")]);
-          state.units = latest.units || []; state.history = history.history || []; state.generatedAt = latest.generated_at || ""; state.sourceUrl = latest.source_url || "";
-          render(); setStatus(`Loaded ${state.units.length} current listing${state.units.length === 1 ? "" : "s"} with historic price tracking.`, false);
-        } catch (error) { console.error(error); state.units = []; state.history = []; render(); setStatus(`Could not load tracker data: ${error.message}`, true); }
+          const [latest, history] = await Promise.all([
+            fetchJson("data/latest.json"),
+            fetchJson("data/history.json"),
+          ]);
+
+          state.units = latest.units || [];
+          state.history = history.history || [];
+          state.generatedAt = latest.generated_at || "";
+          state.sourceUrl = latest.source_url || "";
+
+          render();
+          setStatus(
+            `Loaded ${state.units.length} current listing${state.units.length === 1 ? "" : "s"} with historic price tracking.`,
+            false
+          );
+        } catch (error) {
+          console.error(error);
+          state.units = [];
+          state.history = [];
+          render();
+          setStatus(`Could not load tracker data: ${error.message}`, true);
+        }
       }
-      async function fetchJson(path) { const response = await fetch(`${path}?t=${Date.now()}`, { cache: "no-store" }); if (!response.ok) throw new Error(`HTTP ${response.status} for ${path}`); return response.json(); }
-      function render() { const visibleUnits = getVisibleUnits(); renderSummary(visibleUnits); els.metaText.textContent = state.generatedAt ? `Last snapshot: ${formatDateTime(state.generatedAt)}` : "Last snapshot: unavailable"; if (!visibleUnits.length) { els.tableBody.innerHTML = '<tr><td colspan="9" class="empty">No units match the current filters.</td></tr>'; } else { els.tableBody.innerHTML = visibleUnits.map((unit) => `<tr><td><strong>${escapeHtml(unit.unit_name)}</strong><div class="muted">${escapeHtml(unit.floor_plan || "-")} · ${escapeHtml(unit.collection || "-")}</div></td><td>${formatCurrency(unit.price)}</td><td>${unit.previous_price != null ? formatCurrency(unit.previous_price) : "-"}</td><td class="${deltaClass(unit.price_change)}">${formatDelta(unit.price_change)}</td><td>${unit.lease_term_months} mo</td><td>${formatDate(unit.start_date)}</td><td>${unit.square_feet || "-"}</td><td>${unit.observation_count} obs.<div class="muted">${formatCurrency(unit.min_price)} to ${formatCurrency(unit.max_price)}</div></td><td><a href="${unit.unit_url}" target="_blank" rel="noreferrer">Open</a></td></tr>`).join(""); } renderHistory(); }
-      function renderSummary(units) { els.countValue.textContent = String(units.length); els.countSub.textContent = units.length ? `${units.length} current 1B/1B listing${units.length === 1 ? "" : "s"} visible.` : "No 1B/1B units match the current filters."; if (units.length) { const lowest = [...units].sort((a, b) => a.price - b.price)[0]; els.priceValue.textContent = formatCurrency(lowest.price); els.priceSub.textContent = `Unit ${lowest.unit_name}`; const earliest = [...units].sort((a, b) => a.start_date.localeCompare(b.start_date))[0]; els.dateValue.textContent = formatDate(earliest.start_date); els.dateSub.textContent = `Unit ${earliest.unit_name}`; } else { els.priceValue.textContent = "-"; els.priceSub.textContent = "Waiting for matching listings."; els.dateValue.textContent = "-"; els.dateSub.textContent = "Waiting for matching listings."; } }
-      function renderHistory() { const visibleHistory = getVisibleHistory(); if (!visibleHistory.length) { els.historyBody.innerHTML = '<tr><td colspan="9" class="empty">No historic observations match the current filters.</td></tr>'; return; } els.historyBody.innerHTML = visibleHistory.map((item) => `<tr><td><strong>${escapeHtml(item.unit_name || "-")}</strong><div class="muted">${escapeHtml(item.floor_plan || "-")} · ${escapeHtml(item.collection || "-")}</div></td><td>${item.latest_price != null ? formatCurrency(item.latest_price) : "-"}</td><td>${item.min_price != null ? formatCurrency(item.min_price) : "-"}</td><td>${item.max_price != null ? formatCurrency(item.max_price) : "-"}</td><td>${item.previous_price != null ? formatCurrency(item.previous_price) : "-"}</td><td class="${deltaClass(item.price_change)}">${formatDelta(item.price_change)}</td><td>${formatDateTime(item.first_seen, false)}</td><td>${formatDateTime(item.last_seen, false)}</td><td>${item.observation_count}</td></tr>`).join(""); }
-      function getVisibleUnits() { const query = els.searchInput.value.trim().toLowerCase(); const maxPrice = Number(els.maxPriceInput.value) || Infinity; const minDate = els.minDateInput.value || ""; const filtered = state.units.filter((unit) => { const searchable = [unit.unit_name, unit.floor_plan, unit.collection, unit.address_line1].filter(Boolean).join(" ").toLowerCase(); return (!query || searchable.includes(query)) && unit.price <= maxPrice && (!minDate || unit.start_date >= minDate); }); const sortMode = els.sortSelect.value; return filtered.sort((a, b) => { if (sortMode === "price-asc") return a.price - b.price; if (sortMode === "lease-asc") return a.lease_term_months - b.lease_term_months; if (sortMode === "sqft-desc") return (b.square_feet || 0) - (a.square_feet || 0); return a.start_date.localeCompare(b.start_date); }); }
-      function getVisibleHistory() { const query = els.searchInput.value.trim().toLowerCase(); const maxPrice = Number(els.maxPriceInput.value) || Infinity; return state.history.filter((item) => { const searchable = [item.unit_name, item.floor_plan, item.collection].filter(Boolean).join(" ").toLowerCase(); return (!query || searchable.includes(query)) && (item.latest_price || 0) <= maxPrice; }).sort((a, b) => { const left = a.latest_price ?? Number.MAX_SAFE_INTEGER; const right = b.latest_price ?? Number.MAX_SAFE_INTEGER; return left - right; }); }
-      function setStatus(message, isWarning) { els.status.textContent = message; els.status.className = isWarning ? "status warn" : "status"; }
-      function formatCurrency(value) { return new Intl.NumberFormat("en-US", { style: "currency", currency: "USD", maximumFractionDigits: 0 }).format(value || 0); }
-      function formatDate(value) { if (!value) return "-"; return new Intl.DateTimeFormat("en-US", { month: "short", day: "numeric", year: "numeric" }).format(new Date(`${value}T00:00:00`)); }
-      function formatDateTime(value, includeTime = true) { if (!value) return "-"; const options = includeTime ? { month: "short", day: "numeric", year: "numeric", hour: "numeric", minute: "2-digit" } : { month: "short", day: "numeric", year: "numeric" }; return new Intl.DateTimeFormat("en-US", options).format(new Date(value)); }
-      function formatDelta(value) { if (value == null) return "-"; if (value === 0) return "$0"; return `${value > 0 ? "+" : "-"}${formatCurrency(Math.abs(value))}`; }
-      function deltaClass(value) { if (value == null || value === 0) return "delta-flat"; return value > 0 ? "delta-up" : "delta-down"; }
-      function escapeHtml(value) { return String(value).replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;").replaceAll('"', "&quot;").replaceAll("'", "&#39;"); }
+
+      async function fetchJson(path) {
+        const response = await fetch(`${path}?t=${Date.now()}`, { cache: "no-store" });
+        if (!response.ok) {
+          throw new Error(`HTTP ${response.status} for ${path}`);
+        }
+        return response.json();
+      }
+
+      function render() {
+        const visibleUnits = getVisibleUnits();
+
+        renderSummary(visibleUnits);
+        els.metaText.textContent = state.generatedAt
+          ? `Last checked: ${formatDateTime(state.generatedAt)}`
+          : "Last checked: unavailable";
+
+        if (!visibleUnits.length) {
+          els.tableBody.innerHTML =
+            '<tr><td colspan="9" class="empty">No units match the current filters.</td></tr>';
+        } else {
+          els.tableBody.innerHTML = visibleUnits
+            .map(
+              (unit) => `
+                <tr>
+                  <td>
+                    <strong>${escapeHtml(unit.unit_name)}</strong>
+                    <div class="muted">${escapeHtml(unit.floor_plan || "-")} · ${escapeHtml(unit.collection || "-")}</div>
+                  </td>
+                  <td>${formatCurrency(unit.price)}</td>
+                  <td>${unit.previous_price != null ? formatCurrency(unit.previous_price) : "-"}</td>
+                  <td class="${deltaClass(unit.price_change)}">${formatDelta(unit.price_change)}</td>
+                  <td>${unit.lease_term_months} mo</td>
+                  <td>${formatDate(unit.start_date)}</td>
+                  <td>${unit.square_feet || "-"}</td>
+                  <td>${unit.observation_count} obs.<div class="muted">${formatCurrency(unit.min_price)} to ${formatCurrency(unit.max_price)}</div></td>
+                  <td><a href="${unit.unit_url}" target="_blank" rel="noreferrer">Open</a></td>
+                </tr>
+              `
+            )
+            .join("");
+        }
+
+        renderHistory();
+      }
+
+      function renderSummary(units) {
+        els.countValue.textContent = String(units.length);
+        els.countSub.textContent = units.length
+          ? `${units.length} current 1B/1B listing${units.length === 1 ? "" : "s"} visible.`
+          : "No 1B/1B units match the current filters.";
+
+        if (units.length) {
+          const lowest = [...units].sort((a, b) => a.price - b.price)[0];
+          els.priceValue.textContent = formatCurrency(lowest.price);
+          els.priceSub.textContent = `Unit ${lowest.unit_name}`;
+
+          const earliest = [...units].sort((a, b) => a.start_date.localeCompare(b.start_date))[0];
+          els.dateValue.textContent = formatDate(earliest.start_date);
+          els.dateSub.textContent = `Unit ${earliest.unit_name}`;
+        } else {
+          els.priceValue.textContent = "-";
+          els.priceSub.textContent = "Waiting for matching listings.";
+          els.dateValue.textContent = "-";
+          els.dateSub.textContent = "Waiting for matching listings.";
+        }
+      }
+
+      function renderHistory() {
+        const visibleHistory = getVisibleHistory();
+        if (!visibleHistory.length) {
+          els.historyBody.innerHTML =
+            '<tr><td colspan="9" class="empty">No historic observations match the current filters.</td></tr>';
+          return;
+        }
+
+        els.historyBody.innerHTML = visibleHistory
+          .map(
+            (item) => `
+              <tr>
+                <td>
+                  <strong>${escapeHtml(item.unit_name || "-")}</strong>
+                  <div class="muted">${escapeHtml(item.floor_plan || "-")} · ${escapeHtml(item.collection || "-")}</div>
+                </td>
+                <td>${item.latest_price != null ? formatCurrency(item.latest_price) : "-"}</td>
+                <td>${item.min_price != null ? formatCurrency(item.min_price) : "-"}</td>
+                <td>${item.max_price != null ? formatCurrency(item.max_price) : "-"}</td>
+                <td>${item.previous_price != null ? formatCurrency(item.previous_price) : "-"}</td>
+                <td class="${deltaClass(item.price_change)}">${formatDelta(item.price_change)}</td>
+                <td>${formatDateTime(item.first_seen, false)}</td>
+                <td>${formatDateTime(item.last_seen, false)}</td>
+                <td>${item.observation_count}</td>
+              </tr>
+            `
+          )
+          .join("");
+      }
+
+      function getVisibleUnits() {
+        const query = els.searchInput.value.trim().toLowerCase();
+        const maxPrice = Number(els.maxPriceInput.value) || Infinity;
+        const minDate = els.minDateInput.value || "";
+
+        const filtered = state.units.filter((unit) => {
+          const searchable = [
+            unit.unit_name,
+            unit.floor_plan,
+            unit.collection,
+            unit.address_line1,
+          ]
+            .filter(Boolean)
+            .join(" ")
+            .toLowerCase();
+
+          return (
+            (!query || searchable.includes(query)) &&
+            unit.price <= maxPrice &&
+            (!minDate || unit.start_date >= minDate)
+          );
+        });
+
+        const sortMode = els.sortSelect.value;
+        return filtered.sort((a, b) => {
+          if (sortMode === "price-asc") return a.price - b.price;
+          if (sortMode === "lease-asc") return a.lease_term_months - b.lease_term_months;
+          if (sortMode === "sqft-desc") return (b.square_feet || 0) - (a.square_feet || 0);
+          return a.start_date.localeCompare(b.start_date);
+        });
+      }
+
+      function getVisibleHistory() {
+        const query = els.searchInput.value.trim().toLowerCase();
+        const maxPrice = Number(els.maxPriceInput.value) || Infinity;
+
+        return state.history
+          .filter((item) => {
+            const searchable = [item.unit_name, item.floor_plan, item.collection]
+              .filter(Boolean)
+              .join(" ")
+              .toLowerCase();
+            return (!query || searchable.includes(query)) && (item.latest_price || 0) <= maxPrice;
+          })
+          .sort((a, b) => {
+            const left = a.latest_price ?? Number.MAX_SAFE_INTEGER;
+            const right = b.latest_price ?? Number.MAX_SAFE_INTEGER;
+            return left - right;
+          });
+      }
+
+      function setStatus(message, isWarning) {
+        els.status.textContent = message;
+        els.status.className = isWarning ? "status warn" : "status";
+      }
+
+      function formatCurrency(value) {
+        return new Intl.NumberFormat("en-US", {
+          style: "currency",
+          currency: "USD",
+          maximumFractionDigits: 0,
+        }).format(value || 0);
+      }
+
+      function formatDate(value) {
+        if (!value) return "-";
+        return new Intl.DateTimeFormat("en-US", {
+          month: "short",
+          day: "numeric",
+          year: "numeric",
+        }).format(new Date(`${value}T00:00:00`));
+      }
+
+      function formatDateTime(value, includeTime = true) {
+        if (!value) return "-";
+
+        const options = includeTime
+          ? {
+              month: "short",
+              day: "numeric",
+              year: "numeric",
+              hour: "numeric",
+              minute: "2-digit",
+            }
+          : {
+              month: "short",
+              day: "numeric",
+              year: "numeric",
+            };
+
+        return new Intl.DateTimeFormat("en-US", options).format(new Date(value));
+      }
+
+      function formatDelta(value) {
+        if (value == null) return "-";
+        if (value === 0) return "$0";
+        return `${value > 0 ? "+" : "-"}${formatCurrency(Math.abs(value))}`;
+      }
+
+      function deltaClass(value) {
+        if (value == null || value === 0) return "delta-flat";
+        return value > 0 ? "delta-up" : "delta-down";
+      }
+
+      function escapeHtml(value) {
+        return String(value)
+          .replaceAll("&", "&amp;")
+          .replaceAll("<", "&lt;")
+          .replaceAll(">", "&gt;")
+          .replaceAll('"', "&quot;")
+          .replaceAll("'", "&#39;");
+      }
     </script>
   </body>
 </html>
