@@ -164,6 +164,35 @@
         background: var(--accent-soft);
       }
 
+      .hero-photo {
+        margin: 0;
+        min-height: 100%;
+        display: grid;
+        gap: 10px;
+        align-content: stretch;
+      }
+
+      .hero-photo-frame {
+        overflow: hidden;
+        border-radius: 20px;
+        border: 1px solid rgba(31, 41, 51, 0.08);
+        background: rgba(255, 248, 239, 0.82);
+        min-height: 260px;
+      }
+
+      .hero-photo-frame img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .hero-photo figcaption {
+        color: #7b5b45;
+        font-size: 0.92rem;
+        text-align: center;
+      }
+
       .panel {
         padding: 20px;
       }
@@ -331,11 +360,12 @@
               updated price history.
             </p>
           </div>
-          <div class="note">
-            GitHub Actions runs in UTC, so this project uses an hourly workflow plus an
-            `America/New_York` time check to keep the actual scrape times aligned to 9:00 AM and
-            5:00 PM Eastern through daylight saving changes.
-          </div>
+          <figure class="hero-photo">
+            <div class="hero-photo-frame">
+              <img src="assets/shiba-inu.svg" alt="Illustrated shiba inu portrait" />
+            </div>
+            <figcaption>Shiba supervisor on refresh duty.</figcaption>
+          </figure>
         </div>
       </section>
 
