@@ -1,0 +1,42 @@
+name: Update Tracker Data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Update generated data
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            python scripts/update_data.py --scheduled
+          else
+            python scripts/update_data.py
+          fi
+
+      - name: Commit updated data
+        run: |
+          if git diff --quiet; then
+            echo "No data changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/latest.json data/history.json
+          git commit -m "Update tracker data"
+          git push
