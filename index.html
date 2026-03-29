@@ -278,6 +278,7 @@
         overflow: auto;
         border-radius: 18px;
         border: 1px solid var(--line);
+        -webkit-overflow-scrolling: touch;
       }
 
       table {
@@ -338,6 +339,132 @@
         .summary-grid,
         .controls-grid {
           grid-template-columns: 1fr;
+        }
+
+        .hero-photo-frame {
+          min-height: 220px;
+        }
+      }
+
+      @media (max-width: 640px) {
+        .shell {
+          width: min(100% - 18px, 1180px);
+          margin: 12px auto 24px;
+        }
+
+        .hero,
+        .panel {
+          border-radius: 20px;
+        }
+
+        .hero {
+          padding: 20px 16px;
+        }
+
+        .panel {
+          padding: 16px;
+        }
+
+        .hero::after {
+          top: -96px;
+          right: -80px;
+          width: 180px;
+          height: 180px;
+        }
+
+        .chip-row {
+          gap: 8px;
+        }
+
+        .chip {
+          padding: 8px 12px;
+          font-size: 0.84rem;
+        }
+
+        h1 {
+          font-size: 2.2rem;
+        }
+
+        .summary-grid {
+          margin: 14px 0;
+          gap: 12px;
+        }
+
+        .summary-card {
+          padding: 16px;
+        }
+
+        .summary-value {
+          font-size: 1.8rem;
+        }
+
+        .hero-photo {
+          gap: 8px;
+        }
+
+        .hero-photo-frame {
+          min-height: 180px;
+        }
+
+        .controls-grid {
+          gap: 12px;
+        }
+
+        .meta-row {
+          align-items: stretch;
+          flex-direction: column;
+          gap: 12px;
+        }
+
+        .button-row {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          width: 100%;
+        }
+
+        button,
+        .button-link {
+          width: 100%;
+          padding: 12px 14px;
+          text-align: center;
+        }
+
+        .status {
+          margin-top: 12px;
+          padding: 11px 12px;
+          font-size: 0.9rem;
+        }
+
+        th,
+        td {
+          padding: 12px 12px;
+        }
+
+        th {
+          font-size: 0.72rem;
+        }
+
+        .table-wrap {
+          border-radius: 16px;
+          margin-top: 14px;
+        }
+
+        table {
+          min-width: 760px;
+        }
+
+        .empty {
+          padding: 22px 14px;
+        }
+      }
+
+      @media (max-width: 420px) {
+        .button-row {
+          grid-template-columns: 1fr;
+        }
+
+        .hero-photo-frame {
+          min-height: 160px;
         }
       }
     </style>
