@@ -11,12 +11,14 @@ Static GitHub Pages tracker for Avalon Princeton Circle 1 bed / 1 bath listings.
 
 ## Update schedule
 
-GitHub Actions checks every hour, but only writes new data when the local time in `America/New_York` is:
+GitHub Actions checks every hour, but only writes new data when the fixed local time in
+`EST` (UTC-5) is:
 
 - `9:00 AM`
 - `5:00 PM`
 
-This keeps the intended schedule aligned to Eastern Time through daylight saving changes.
+This keeps the runs pinned to EST year-round, so during daylight saving time the refreshes
+will occur at `10:00 AM` and `6:00 PM` in New York local time.
 
 ## Files
 

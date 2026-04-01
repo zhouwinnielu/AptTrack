@@ -6,9 +6,8 @@ import re
 import urllib.error
 import urllib.request
 from dataclasses import dataclass
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from zoneinfo import ZoneInfo
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
@@ -16,7 +15,8 @@ DATA_DIR = REPO_ROOT / "data"
 LATEST_PATH = DATA_DIR / "latest.json"
 HISTORY_PATH = DATA_DIR / "history.json"
 TARGET_URL = "https://www.avaloncommunities.com/new-jersey/princeton-apartments/avalon-princeton-circle/"
-TIMEZONE = ZoneInfo("America/New_York")
+TIMEZONE = timezone(timedelta(hours=-5), name="EST")
+SCHEDULE_TIMEZONE_LABEL = "EST"
 TARGET_HOURS = {9, 17}
 
 
@@ -93,7 +93,7 @@ def fetch_live_units() -> dict:
         "generated_at": now.isoformat(),
         "generated_at_local": now.astimezone(TIMEZONE).isoformat(),
         "source_url": TARGET_URL,
-        "schedule_timezone": "America/New_York",
+        "schedule_timezone": SCHEDULE_TIMEZONE_LABEL,
         "scheduled_hours_local": ["09:00", "17:00"],
         "units": normalized_units,
     }
@@ -108,12 +108,15 @@ def load_json(path: Path, default: dict) -> dict:
 def should_run_scheduled(existing_latest: dict) -> UpdateDecision:
     now_local = datetime.now(TIMEZONE)
     if now_local.hour not in TARGET_HOURS:
-        return UpdateDecision(False, f"Skipping at local hour {now_local.hour:02d}:00 ET")
+        return UpdateDecision(False, f"Skipping at local hour {now_local.hour:02d}:00 {SCHEDULE_TIMEZONE_LABEL}")
 
     generated_at = existing_latest.get("generated_at")
     if generated_at:
         previous_local = datetime.fromisoformat(generated_at).astimezone(TIMEZONE)
-        if previous_local.date() == now_local.date() and previous_local.hour == now_local.hour:
+        if (
+            previous_local.date() == now_local.date()
+            and previous_local.hour == now_local.hour
+        ):
             return UpdateDecision(False, "A scrape already exists for this local time slot")
 
     return UpdateDecision(True, f"Running scheduled scrape for {now_local.strftime('%Y-%m-%d %H:%M %Z')}")
@@ -167,7 +170,7 @@ def build_history(existing_history: dict, latest_payload: dict) -> dict:
     return {
         "generated_at": latest_payload["generated_at"],
         "source_url": latest_payload["source_url"],
-        "schedule_timezone": "America/New_York",
+        "schedule_timezone": SCHEDULE_TIMEZONE_LABEL,
         "scheduled_hours_local": ["09:00", "17:00"],
         "history": sorted(
             history_by_unit.values(),
@@ -197,7 +200,10 @@ def build_latest(latest_payload: dict, history_payload: dict) -> dict:
             }
         )
 
-    return {**latest_payload, "units": enriched_units}
+    return {
+        **latest_payload,
+        "units": enriched_units,
+    }
 
 
 def write_json(path: Path, payload: dict) -> None:
@@ -226,7 +232,16 @@ def main() -> int:
     write_json(HISTORY_PATH, history_payload)
     write_json(LATEST_PATH, latest_with_history)
 
-    print(json.dumps({"generated_at": latest_with_history["generated_at"], "units": len(latest_with_history["units"]), "latest_path": str(LATEST_PATH.relative_to(REPO_ROOT)), "history_path": str(HISTORY_PATH.relative_to(REPO_ROOT))}))
+    print(
+        json.dumps(
+            {
+                "generated_at": latest_with_history["generated_at"],
+                "units": len(latest_with_history["units"]),
+                "latest_path": str(LATEST_PATH.relative_to(REPO_ROOT)),
+                "history_path": str(HISTORY_PATH.relative_to(REPO_ROOT)),
+            }
+        )
+    )
     return 0
 
 
