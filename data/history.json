@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-01T22:36:46.842333+00:00",
+  "generated_at": "2026-04-02T14:55:59.962772+00:00",
   "source_url": "https://www.avaloncommunities.com/new-jersey/princeton-apartments/avalon-princeton-circle/",
   "schedule_timezone": "EST",
   "scheduled_hours_local": [
@@ -69,11 +69,18 @@
           "start_date": "2026-04-05",
           "lease_term_months": 10,
           "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-04-02T14:55:59.962772+00:00",
+          "price": 2705,
+          "start_date": "2026-04-05",
+          "lease_term_months": 10,
+          "unit_status": "VacantAvailable"
         }
       ],
-      "observation_count": 8,
+      "observation_count": 9,
       "first_seen": "2026-03-29T05:39:10.208456+00:00",
-      "last_seen": "2026-04-01T22:36:46.842333+00:00",
+      "last_seen": "2026-04-02T14:55:59.962772+00:00",
       "latest_price": 2705,
       "previous_price": 2705,
       "price_change": 0,
@@ -142,11 +149,18 @@
           "start_date": "2026-06-03",
           "lease_term_months": 10,
           "unit_status": "NoticeAvailable"
+        },
+        {
+          "generated_at": "2026-04-02T14:55:59.962772+00:00",
+          "price": 2720,
+          "start_date": "2026-06-03",
+          "lease_term_months": 10,
+          "unit_status": "NoticeAvailable"
         }
       ],
-      "observation_count": 8,
+      "observation_count": 9,
       "first_seen": "2026-03-29T05:39:10.208456+00:00",
-      "last_seen": "2026-04-01T22:36:46.842333+00:00",
+      "last_seen": "2026-04-02T14:55:59.962772+00:00",
       "latest_price": 2720,
       "previous_price": 2720,
       "price_change": 0,
@@ -215,11 +229,18 @@
           "start_date": "2026-06-11",
           "lease_term_months": 10,
           "unit_status": "NoticeAvailable"
+        },
+        {
+          "generated_at": "2026-04-02T14:55:59.962772+00:00",
+          "price": 2725,
+          "start_date": "2026-06-11",
+          "lease_term_months": 10,
+          "unit_status": "NoticeAvailable"
         }
       ],
-      "observation_count": 8,
+      "observation_count": 9,
       "first_seen": "2026-03-29T05:39:10.208456+00:00",
-      "last_seen": "2026-04-01T22:36:46.842333+00:00",
+      "last_seen": "2026-04-02T14:55:59.962772+00:00",
       "latest_price": 2725,
       "previous_price": 2725,
       "price_change": 0,
@@ -288,11 +309,18 @@
           "start_date": "2026-04-02",
           "lease_term_months": 10,
           "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-04-02T14:55:59.962772+00:00",
+          "price": 2738,
+          "start_date": "2026-04-03",
+          "lease_term_months": 10,
+          "unit_status": "VacantAvailable"
         }
       ],
-      "observation_count": 8,
+      "observation_count": 9,
       "first_seen": "2026-03-29T05:39:10.208456+00:00",
-      "last_seen": "2026-04-01T22:36:46.842333+00:00",
+      "last_seen": "2026-04-02T14:55:59.962772+00:00",
       "latest_price": 2738,
       "previous_price": 2738,
       "price_change": 0,
@@ -361,11 +389,18 @@
           "start_date": "2026-04-25",
           "lease_term_months": 10,
           "unit_status": "NoticeAvailable"
+        },
+        {
+          "generated_at": "2026-04-02T14:55:59.962772+00:00",
+          "price": 2830,
+          "start_date": "2026-04-25",
+          "lease_term_months": 10,
+          "unit_status": "NoticeAvailable"
         }
       ],
-      "observation_count": 8,
+      "observation_count": 9,
       "first_seen": "2026-03-29T05:39:10.208456+00:00",
-      "last_seen": "2026-04-01T22:36:46.842333+00:00",
+      "last_seen": "2026-04-02T14:55:59.962772+00:00",
       "latest_price": 2830,
       "previous_price": 2830,
       "price_change": 0,
@@ -434,11 +469,18 @@
           "start_date": "2026-04-02",
           "lease_term_months": 10,
           "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-04-02T14:55:59.962772+00:00",
+          "price": 2943,
+          "start_date": "2026-04-03",
+          "lease_term_months": 10,
+          "unit_status": "VacantAvailable"
         }
       ],
-      "observation_count": 8,
+      "observation_count": 9,
       "first_seen": "2026-03-29T05:39:10.208456+00:00",
-      "last_seen": "2026-04-01T22:36:46.842333+00:00",
+      "last_seen": "2026-04-02T14:55:59.962772+00:00",
       "latest_price": 2943,
       "previous_price": 2943,
       "price_change": 0,
@@ -507,11 +549,18 @@
           "start_date": "2026-04-30",
           "lease_term_months": 10,
           "unit_status": "NoticeAvailable"
+        },
+        {
+          "generated_at": "2026-04-02T14:55:59.962772+00:00",
+          "price": 3110,
+          "start_date": "2026-04-30",
+          "lease_term_months": 10,
+          "unit_status": "NoticeAvailable"
         }
       ],
-      "observation_count": 8,
+      "observation_count": 9,
       "first_seen": "2026-03-29T05:39:10.208456+00:00",
-      "last_seen": "2026-04-01T22:36:46.842333+00:00",
+      "last_seen": "2026-04-02T14:55:59.962772+00:00",
       "latest_price": 3110,
       "previous_price": 3110,
       "price_change": 0,
