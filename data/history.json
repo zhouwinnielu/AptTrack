@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T22:56:46.765709+00:00",
+  "generated_at": "2026-08-07T14:16:06.425705+00:00",
   "source_url": "https://www.avaloncommunities.com/new-jersey/princeton-apartments/avalon-princeton-circle/",
   "schedule_timezone": "EST",
   "scheduled_hours_local": [
@@ -548,14 +548,21 @@
           "start_date": "2026-11-08",
           "lease_term_months": 22,
           "unit_status": "NoticeAvailable"
+        },
+        {
+          "generated_at": "2026-08-07T14:16:06.425705+00:00",
+          "price": 2775,
+          "start_date": "2026-11-08",
+          "lease_term_months": 22,
+          "unit_status": "NoticeAvailable"
         }
       ],
-      "observation_count": 18,
+      "observation_count": 19,
       "first_seen": "2026-07-19T14:54:08.510792+00:00",
-      "last_seen": "2026-08-05T22:56:46.765709+00:00",
+      "last_seen": "2026-08-07T14:16:06.425705+00:00",
       "latest_price": 2775,
-      "previous_price": 2745,
-      "price_change": 30,
+      "previous_price": 2775,
+      "price_change": 0,
       "min_price": 2745,
       "max_price": 2895
     },
@@ -995,6 +1002,471 @@
       "price_change": 35,
       "min_price": 2745,
       "max_price": 3030
+    },
+    {
+      "unit_id": "AVB-NJ044-002-134",
+      "unit_name": "134",
+      "floor_plan": "AM19",
+      "collection": "Upgraded Collection",
+      "unit_url": "https://www.avaloncommunities.com/new-jersey/princeton-apartments/avalon-princeton-circle/apartment/NJ044-NJ044-002-134",
+      "observations": [
+        {
+          "generated_at": "2026-03-29T05:39:10.208456+00:00",
+          "price": 2738,
+          "start_date": "2026-03-30",
+          "lease_term_months": 10,
+          "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-03-30T13:25:28.898899+00:00",
+          "price": 2738,
+          "start_date": "2026-03-31",
+          "lease_term_months": 10,
+          "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-03-30T21:48:09.894373+00:00",
+          "price": 2738,
+          "start_date": "2026-03-31",
+          "lease_term_months": 10,
+          "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-03-31T13:17:35.954395+00:00",
+          "price": 2738,
+          "start_date": "2026-04-01",
+          "lease_term_months": 10,
+          "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-03-31T21:38:46.625866+00:00",
+          "price": 2738,
+          "start_date": "2026-04-01",
+          "lease_term_months": 10,
+          "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-04-01T13:20:57.397552+00:00",
+          "price": 2738,
+          "start_date": "2026-04-02",
+          "lease_term_months": 10,
+          "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-04-01T13:44:38.272952+00:00",
+          "price": 2738,
+          "start_date": "2026-04-02",
+          "lease_term_months": 10,
+          "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-04-01T22:36:46.842333+00:00",
+          "price": 2738,
+          "start_date": "2026-04-02",
+          "lease_term_months": 10,
+          "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-04-02T14:55:59.962772+00:00",
+          "price": 2738,
+          "start_date": "2026-04-03",
+          "lease_term_months": 10,
+          "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-04-02T22:30:50.079794+00:00",
+          "price": 2738,
+          "start_date": "2026-04-03",
+          "lease_term_months": 10,
+          "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-04-03T14:41:39.790786+00:00",
+          "price": 2738,
+          "start_date": "2026-04-04",
+          "lease_term_months": 10,
+          "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-04-03T22:32:37.870855+00:00",
+          "price": 2738,
+          "start_date": "2026-04-04",
+          "lease_term_months": 10,
+          "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-04-04T14:33:19.979388+00:00",
+          "price": 2738,
+          "start_date": "2026-04-05",
+          "lease_term_months": 10,
+          "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-04-04T22:28:48.265801+00:00",
+          "price": 2738,
+          "start_date": "2026-04-05",
+          "lease_term_months": 10,
+          "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-04-05T14:36:36.154661+00:00",
+          "price": 2738,
+          "start_date": "2026-04-06",
+          "lease_term_months": 10,
+          "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-04-05T22:30:07.709452+00:00",
+          "price": 2738,
+          "start_date": "2026-04-06",
+          "lease_term_months": 10,
+          "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-04-06T14:46:08.468049+00:00",
+          "price": 2738,
+          "start_date": "2026-04-07",
+          "lease_term_months": 10,
+          "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-04-06T22:35:53.247585+00:00",
+          "price": 2738,
+          "start_date": "2026-04-07",
+          "lease_term_months": 10,
+          "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-04-07T22:37:27.811077+00:00",
+          "price": 2758,
+          "start_date": "2026-04-08",
+          "lease_term_months": 10,
+          "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-04-08T22:38:30.456265+00:00",
+          "price": 2758,
+          "start_date": "2026-04-09",
+          "lease_term_months": 10,
+          "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-04-09T14:03:22.802687+00:00",
+          "price": 2758,
+          "start_date": "2026-04-10",
+          "lease_term_months": 10,
+          "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-04-09T22:39:59.729124+00:00",
+          "price": 2758,
+          "start_date": "2026-04-10",
+          "lease_term_months": 10,
+          "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-04-10T14:47:52.244070+00:00",
+          "price": 2758,
+          "start_date": "2026-04-11",
+          "lease_term_months": 10,
+          "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-04-10T22:36:56.704903+00:00",
+          "price": 2758,
+          "start_date": "2026-04-11",
+          "lease_term_months": 10,
+          "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-04-11T14:39:32.670032+00:00",
+          "price": 2758,
+          "start_date": "2026-04-12",
+          "lease_term_months": 10,
+          "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-04-11T22:31:58.719520+00:00",
+          "price": 2758,
+          "start_date": "2026-04-12",
+          "lease_term_months": 10,
+          "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-04-12T14:38:29.807285+00:00",
+          "price": 2758,
+          "start_date": "2026-04-13",
+          "lease_term_months": 10,
+          "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-04-12T22:34:16.269528+00:00",
+          "price": 2758,
+          "start_date": "2026-04-13",
+          "lease_term_months": 10,
+          "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-04-13T14:48:17.147678+00:00",
+          "price": 2758,
+          "start_date": "2026-04-14",
+          "lease_term_months": 10,
+          "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-04-13T22:42:24.547120+00:00",
+          "price": 2758,
+          "start_date": "2026-04-14",
+          "lease_term_months": 10,
+          "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-04-14T22:44:13.192315+00:00",
+          "price": 2753,
+          "start_date": "2026-04-15",
+          "lease_term_months": 10,
+          "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-04-15T14:44:08.641801+00:00",
+          "price": 2753,
+          "start_date": "2026-04-16",
+          "lease_term_months": 10,
+          "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-04-15T22:40:16.848029+00:00",
+          "price": 2753,
+          "start_date": "2026-04-16",
+          "lease_term_months": 10,
+          "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-04-16T22:39:02.741561+00:00",
+          "price": 2753,
+          "start_date": "2026-04-17",
+          "lease_term_months": 10,
+          "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-04-17T14:55:22.049983+00:00",
+          "price": 2753,
+          "start_date": "2026-04-18",
+          "lease_term_months": 10,
+          "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-04-17T22:38:09.027300+00:00",
+          "price": 2753,
+          "start_date": "2026-04-18",
+          "lease_term_months": 10,
+          "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-04-18T14:38:52.911215+00:00",
+          "price": 2753,
+          "start_date": "2026-04-19",
+          "lease_term_months": 10,
+          "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-04-18T22:34:26.426619+00:00",
+          "price": 2753,
+          "start_date": "2026-04-19",
+          "lease_term_months": 10,
+          "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-04-19T14:38:53.883468+00:00",
+          "price": 2753,
+          "start_date": "2026-04-20",
+          "lease_term_months": 10,
+          "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-04-19T22:35:20.472597+00:00",
+          "price": 2753,
+          "start_date": "2026-04-20",
+          "lease_term_months": 10,
+          "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-04-20T14:50:16.072197+00:00",
+          "price": 2753,
+          "start_date": "2026-04-21",
+          "lease_term_months": 10,
+          "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-04-20T22:42:25.982257+00:00",
+          "price": 2753,
+          "start_date": "2026-04-21",
+          "lease_term_months": 10,
+          "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-04-21T22:37:18.584842+00:00",
+          "price": 2753,
+          "start_date": "2026-04-22",
+          "lease_term_months": 10,
+          "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-04-22T22:46:58.835215+00:00",
+          "price": 2753,
+          "start_date": "2026-04-23",
+          "lease_term_months": 10,
+          "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-04-23T22:43:01.440056+00:00",
+          "price": 2833,
+          "start_date": "2026-04-24",
+          "lease_term_months": 10,
+          "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-07-19T14:54:08.510792+00:00",
+          "price": 2838,
+          "start_date": "2026-08-03",
+          "lease_term_months": 13,
+          "unit_status": "NoticeAvailable"
+        },
+        {
+          "generated_at": "2026-07-19T22:50:23.831683+00:00",
+          "price": 2838,
+          "start_date": "2026-08-03",
+          "lease_term_months": 13,
+          "unit_status": "NoticeAvailable"
+        },
+        {
+          "generated_at": "2026-07-21T22:55:09.008128+00:00",
+          "price": 2788,
+          "start_date": "2026-08-03",
+          "lease_term_months": 13,
+          "unit_status": "NoticeAvailable"
+        },
+        {
+          "generated_at": "2026-07-23T22:54:43.726306+00:00",
+          "price": 2823,
+          "start_date": "2026-08-03",
+          "lease_term_months": 13,
+          "unit_status": "NoticeAvailable"
+        },
+        {
+          "generated_at": "2026-07-24T22:59:47.084064+00:00",
+          "price": 2868,
+          "start_date": "2026-08-03",
+          "lease_term_months": 13,
+          "unit_status": "NoticeAvailable"
+        },
+        {
+          "generated_at": "2026-07-25T22:54:17.468217+00:00",
+          "price": 2908,
+          "start_date": "2026-08-03",
+          "lease_term_months": 13,
+          "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-07-27T22:05:15.652348+00:00",
+          "price": 2808,
+          "start_date": "2026-08-03",
+          "lease_term_months": 13,
+          "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-07-28T22:56:29.700677+00:00",
+          "price": 2773,
+          "start_date": "2026-08-03",
+          "lease_term_months": 13,
+          "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-07-29T14:26:25.404134+00:00",
+          "price": 2788,
+          "start_date": "2026-08-03",
+          "lease_term_months": 13,
+          "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-07-31T14:25:14.011649+00:00",
+          "price": 2823,
+          "start_date": "2026-08-07",
+          "lease_term_months": 13,
+          "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-07-31T22:03:41.347666+00:00",
+          "price": 2823,
+          "start_date": "2026-08-07",
+          "lease_term_months": 13,
+          "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-08-01T14:58:51.842103+00:00",
+          "price": 2738,
+          "start_date": "2026-08-07",
+          "lease_term_months": 13,
+          "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-08-01T22:53:46.955967+00:00",
+          "price": 2738,
+          "start_date": "2026-08-07",
+          "lease_term_months": 13,
+          "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-08-02T14:27:51.386698+00:00",
+          "price": 2788,
+          "start_date": "2026-08-07",
+          "lease_term_months": 13,
+          "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-08-02T22:55:19.978086+00:00",
+          "price": 2788,
+          "start_date": "2026-08-07",
+          "lease_term_months": 13,
+          "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-08-03T22:07:40.353410+00:00",
+          "price": 2808,
+          "start_date": "2026-08-07",
+          "lease_term_months": 13,
+          "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-08-04T22:09:52.885073+00:00",
+          "price": 2713,
+          "start_date": "2026-08-07",
+          "lease_term_months": 13,
+          "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-08-05T22:56:46.765709+00:00",
+          "price": 2963,
+          "start_date": "2026-08-07",
+          "lease_term_months": 10,
+          "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-08-07T14:16:06.425705+00:00",
+          "price": 2788,
+          "start_date": "2026-08-08",
+          "lease_term_months": 10,
+          "unit_status": "VacantAvailable"
+        }
+      ],
+      "observation_count": 64,
+      "first_seen": "2026-03-29T05:39:10.208456+00:00",
+      "last_seen": "2026-08-07T14:16:06.425705+00:00",
+      "latest_price": 2788,
+      "previous_price": 2963,
+      "price_change": -175,
+      "min_price": 2713,
+      "max_price": 2963
     },
     {
       "unit_id": "AVB-NJ044-003-104",
@@ -4120,177 +4592,6 @@
       "max_price": 2815
     },
     {
-      "unit_id": "AVB-NJ044-003-110",
-      "unit_name": "110",
-      "floor_plan": "A2-002-131",
-      "collection": "Upgraded Collection",
-      "unit_url": "https://www.avaloncommunities.com/new-jersey/princeton-apartments/avalon-princeton-circle/apartment/NJ044-NJ044-003-110",
-      "observations": [
-        {
-          "generated_at": "2026-07-14T22:57:10.509541+00:00",
-          "price": 2795,
-          "start_date": "2026-08-12",
-          "lease_term_months": 13,
-          "unit_status": "NoticeAvailable"
-        },
-        {
-          "generated_at": "2026-07-15T14:49:09.406782+00:00",
-          "price": 2835,
-          "start_date": "2026-08-12",
-          "lease_term_months": 13,
-          "unit_status": "NoticeAvailable"
-        },
-        {
-          "generated_at": "2026-07-16T22:02:46.108548+00:00",
-          "price": 2800,
-          "start_date": "2026-08-12",
-          "lease_term_months": 13,
-          "unit_status": "NoticeAvailable"
-        },
-        {
-          "generated_at": "2026-07-17T22:49:02.223102+00:00",
-          "price": 2810,
-          "start_date": "2026-08-12",
-          "lease_term_months": 13,
-          "unit_status": "NoticeAvailable"
-        },
-        {
-          "generated_at": "2026-07-18T14:50:57.915561+00:00",
-          "price": 2820,
-          "start_date": "2026-08-12",
-          "lease_term_months": 13,
-          "unit_status": "NoticeAvailable"
-        },
-        {
-          "generated_at": "2026-07-18T22:48:19.525334+00:00",
-          "price": 2820,
-          "start_date": "2026-08-12",
-          "lease_term_months": 13,
-          "unit_status": "NoticeAvailable"
-        },
-        {
-          "generated_at": "2026-07-19T14:54:08.510792+00:00",
-          "price": 2825,
-          "start_date": "2026-08-12",
-          "lease_term_months": 13,
-          "unit_status": "NoticeAvailable"
-        },
-        {
-          "generated_at": "2026-07-19T22:50:23.831683+00:00",
-          "price": 2825,
-          "start_date": "2026-08-12",
-          "lease_term_months": 13,
-          "unit_status": "NoticeAvailable"
-        },
-        {
-          "generated_at": "2026-07-21T22:55:09.008128+00:00",
-          "price": 2775,
-          "start_date": "2026-08-12",
-          "lease_term_months": 13,
-          "unit_status": "NoticeAvailable"
-        },
-        {
-          "generated_at": "2026-07-23T22:54:43.726306+00:00",
-          "price": 2810,
-          "start_date": "2026-08-12",
-          "lease_term_months": 13,
-          "unit_status": "NoticeAvailable"
-        },
-        {
-          "generated_at": "2026-07-24T22:59:47.084064+00:00",
-          "price": 2855,
-          "start_date": "2026-08-12",
-          "lease_term_months": 13,
-          "unit_status": "NoticeAvailable"
-        },
-        {
-          "generated_at": "2026-07-25T22:54:17.468217+00:00",
-          "price": 2895,
-          "start_date": "2026-08-12",
-          "lease_term_months": 13,
-          "unit_status": "NoticeAvailable"
-        },
-        {
-          "generated_at": "2026-07-27T22:05:15.652348+00:00",
-          "price": 2795,
-          "start_date": "2026-08-12",
-          "lease_term_months": 13,
-          "unit_status": "NoticeAvailable"
-        },
-        {
-          "generated_at": "2026-07-28T22:56:29.700677+00:00",
-          "price": 2760,
-          "start_date": "2026-08-14",
-          "lease_term_months": 13,
-          "unit_status": "NoticeAvailable"
-        },
-        {
-          "generated_at": "2026-07-29T14:26:25.404134+00:00",
-          "price": 2775,
-          "start_date": "2026-08-14",
-          "lease_term_months": 13,
-          "unit_status": "NoticeAvailable"
-        },
-        {
-          "generated_at": "2026-07-31T14:25:14.011649+00:00",
-          "price": 2810,
-          "start_date": "2026-08-14",
-          "lease_term_months": 13,
-          "unit_status": "NoticeAvailable"
-        },
-        {
-          "generated_at": "2026-07-31T22:03:41.347666+00:00",
-          "price": 2810,
-          "start_date": "2026-08-14",
-          "lease_term_months": 13,
-          "unit_status": "NoticeAvailable"
-        },
-        {
-          "generated_at": "2026-08-01T14:58:51.842103+00:00",
-          "price": 2725,
-          "start_date": "2026-08-14",
-          "lease_term_months": 13,
-          "unit_status": "NoticeAvailable"
-        },
-        {
-          "generated_at": "2026-08-01T22:53:46.955967+00:00",
-          "price": 2725,
-          "start_date": "2026-08-14",
-          "lease_term_months": 13,
-          "unit_status": "NoticeAvailable"
-        },
-        {
-          "generated_at": "2026-08-02T14:27:51.386698+00:00",
-          "price": 2775,
-          "start_date": "2026-08-14",
-          "lease_term_months": 13,
-          "unit_status": "NoticeAvailable"
-        },
-        {
-          "generated_at": "2026-08-02T22:55:19.978086+00:00",
-          "price": 2775,
-          "start_date": "2026-08-14",
-          "lease_term_months": 13,
-          "unit_status": "NoticeAvailable"
-        },
-        {
-          "generated_at": "2026-08-03T22:07:40.353410+00:00",
-          "price": 2825,
-          "start_date": "2026-08-14",
-          "lease_term_months": 13,
-          "unit_status": "NoticeAvailable"
-        }
-      ],
-      "observation_count": 22,
-      "first_seen": "2026-07-14T22:57:10.509541+00:00",
-      "last_seen": "2026-08-03T22:07:40.353410+00:00",
-      "latest_price": 2825,
-      "previous_price": 2775,
-      "price_change": 50,
-      "min_price": 2725,
-      "max_price": 2895
-    },
-    {
       "unit_id": "AVB-NJ044-002-310",
       "unit_name": "310",
       "floor_plan": "AM12",
@@ -4618,16 +4919,194 @@
           "start_date": "2026-09-13",
           "lease_term_months": 24,
           "unit_status": "NoticeAvailable"
+        },
+        {
+          "generated_at": "2026-08-07T14:16:06.425705+00:00",
+          "price": 2818,
+          "start_date": "2026-09-13",
+          "lease_term_months": 24,
+          "unit_status": "NoticeAvailable"
         }
       ],
-      "observation_count": 46,
+      "observation_count": 47,
       "first_seen": "2026-06-20T22:05:25.064852+00:00",
-      "last_seen": "2026-08-05T22:56:46.765709+00:00",
-      "latest_price": 2838,
-      "previous_price": 2793,
-      "price_change": 45,
+      "last_seen": "2026-08-07T14:16:06.425705+00:00",
+      "latest_price": 2818,
+      "previous_price": 2838,
+      "price_change": -20,
       "min_price": 2768,
       "max_price": 2943
+    },
+    {
+      "unit_id": "AVB-NJ044-003-110",
+      "unit_name": "110",
+      "floor_plan": "A2-002-131",
+      "collection": "Upgraded Collection",
+      "unit_url": "https://www.avaloncommunities.com/new-jersey/princeton-apartments/avalon-princeton-circle/apartment/NJ044-NJ044-003-110",
+      "observations": [
+        {
+          "generated_at": "2026-07-14T22:57:10.509541+00:00",
+          "price": 2795,
+          "start_date": "2026-08-12",
+          "lease_term_months": 13,
+          "unit_status": "NoticeAvailable"
+        },
+        {
+          "generated_at": "2026-07-15T14:49:09.406782+00:00",
+          "price": 2835,
+          "start_date": "2026-08-12",
+          "lease_term_months": 13,
+          "unit_status": "NoticeAvailable"
+        },
+        {
+          "generated_at": "2026-07-16T22:02:46.108548+00:00",
+          "price": 2800,
+          "start_date": "2026-08-12",
+          "lease_term_months": 13,
+          "unit_status": "NoticeAvailable"
+        },
+        {
+          "generated_at": "2026-07-17T22:49:02.223102+00:00",
+          "price": 2810,
+          "start_date": "2026-08-12",
+          "lease_term_months": 13,
+          "unit_status": "NoticeAvailable"
+        },
+        {
+          "generated_at": "2026-07-18T14:50:57.915561+00:00",
+          "price": 2820,
+          "start_date": "2026-08-12",
+          "lease_term_months": 13,
+          "unit_status": "NoticeAvailable"
+        },
+        {
+          "generated_at": "2026-07-18T22:48:19.525334+00:00",
+          "price": 2820,
+          "start_date": "2026-08-12",
+          "lease_term_months": 13,
+          "unit_status": "NoticeAvailable"
+        },
+        {
+          "generated_at": "2026-07-19T14:54:08.510792+00:00",
+          "price": 2825,
+          "start_date": "2026-08-12",
+          "lease_term_months": 13,
+          "unit_status": "NoticeAvailable"
+        },
+        {
+          "generated_at": "2026-07-19T22:50:23.831683+00:00",
+          "price": 2825,
+          "start_date": "2026-08-12",
+          "lease_term_months": 13,
+          "unit_status": "NoticeAvailable"
+        },
+        {
+          "generated_at": "2026-07-21T22:55:09.008128+00:00",
+          "price": 2775,
+          "start_date": "2026-08-12",
+          "lease_term_months": 13,
+          "unit_status": "NoticeAvailable"
+        },
+        {
+          "generated_at": "2026-07-23T22:54:43.726306+00:00",
+          "price": 2810,
+          "start_date": "2026-08-12",
+          "lease_term_months": 13,
+          "unit_status": "NoticeAvailable"
+        },
+        {
+          "generated_at": "2026-07-24T22:59:47.084064+00:00",
+          "price": 2855,
+          "start_date": "2026-08-12",
+          "lease_term_months": 13,
+          "unit_status": "NoticeAvailable"
+        },
+        {
+          "generated_at": "2026-07-25T22:54:17.468217+00:00",
+          "price": 2895,
+          "start_date": "2026-08-12",
+          "lease_term_months": 13,
+          "unit_status": "NoticeAvailable"
+        },
+        {
+          "generated_at": "2026-07-27T22:05:15.652348+00:00",
+          "price": 2795,
+          "start_date": "2026-08-12",
+          "lease_term_months": 13,
+          "unit_status": "NoticeAvailable"
+        },
+        {
+          "generated_at": "2026-07-28T22:56:29.700677+00:00",
+          "price": 2760,
+          "start_date": "2026-08-14",
+          "lease_term_months": 13,
+          "unit_status": "NoticeAvailable"
+        },
+        {
+          "generated_at": "2026-07-29T14:26:25.404134+00:00",
+          "price": 2775,
+          "start_date": "2026-08-14",
+          "lease_term_months": 13,
+          "unit_status": "NoticeAvailable"
+        },
+        {
+          "generated_at": "2026-07-31T14:25:14.011649+00:00",
+          "price": 2810,
+          "start_date": "2026-08-14",
+          "lease_term_months": 13,
+          "unit_status": "NoticeAvailable"
+        },
+        {
+          "generated_at": "2026-07-31T22:03:41.347666+00:00",
+          "price": 2810,
+          "start_date": "2026-08-14",
+          "lease_term_months": 13,
+          "unit_status": "NoticeAvailable"
+        },
+        {
+          "generated_at": "2026-08-01T14:58:51.842103+00:00",
+          "price": 2725,
+          "start_date": "2026-08-14",
+          "lease_term_months": 13,
+          "unit_status": "NoticeAvailable"
+        },
+        {
+          "generated_at": "2026-08-01T22:53:46.955967+00:00",
+          "price": 2725,
+          "start_date": "2026-08-14",
+          "lease_term_months": 13,
+          "unit_status": "NoticeAvailable"
+        },
+        {
+          "generated_at": "2026-08-02T14:27:51.386698+00:00",
+          "price": 2775,
+          "start_date": "2026-08-14",
+          "lease_term_months": 13,
+          "unit_status": "NoticeAvailable"
+        },
+        {
+          "generated_at": "2026-08-02T22:55:19.978086+00:00",
+          "price": 2775,
+          "start_date": "2026-08-14",
+          "lease_term_months": 13,
+          "unit_status": "NoticeAvailable"
+        },
+        {
+          "generated_at": "2026-08-03T22:07:40.353410+00:00",
+          "price": 2825,
+          "start_date": "2026-08-14",
+          "lease_term_months": 13,
+          "unit_status": "NoticeAvailable"
+        }
+      ],
+      "observation_count": 22,
+      "first_seen": "2026-07-14T22:57:10.509541+00:00",
+      "last_seen": "2026-08-03T22:07:40.353410+00:00",
+      "latest_price": 2825,
+      "previous_price": 2775,
+      "price_change": 50,
+      "min_price": 2725,
+      "max_price": 2895
     },
     {
       "unit_id": "AVB-NJ044-002-218",
@@ -5739,6 +6218,30 @@
       "price_change": 0,
       "min_price": 2785,
       "max_price": 2875
+    },
+    {
+      "unit_id": "AVB-NJ044-002-331",
+      "unit_name": "331",
+      "floor_plan": "A2-002-131",
+      "collection": "Upgraded Collection",
+      "unit_url": "https://www.avaloncommunities.com/new-jersey/princeton-apartments/avalon-princeton-circle/apartment/NJ044-NJ044-002-331",
+      "observations": [
+        {
+          "generated_at": "2026-08-07T14:16:06.425705+00:00",
+          "price": 2870,
+          "start_date": "2026-09-12",
+          "lease_term_months": 24,
+          "unit_status": "NoticeAvailable"
+        }
+      ],
+      "observation_count": 1,
+      "first_seen": "2026-08-07T14:16:06.425705+00:00",
+      "last_seen": "2026-08-07T14:16:06.425705+00:00",
+      "latest_price": 2870,
+      "previous_price": null,
+      "price_change": null,
+      "min_price": 2870,
+      "max_price": 2870
     },
     {
       "unit_id": "AVB-NJ044-002-307",
@@ -7131,14 +7634,21 @@
           "start_date": "2026-09-03",
           "lease_term_months": 24,
           "unit_status": "NoticeAvailable"
+        },
+        {
+          "generated_at": "2026-08-07T14:16:06.425705+00:00",
+          "price": 2890,
+          "start_date": "2026-09-03",
+          "lease_term_months": 24,
+          "unit_status": "NoticeAvailable"
         }
       ],
-      "observation_count": 45,
+      "observation_count": 46,
       "first_seen": "2026-06-22T22:01:14.588851+00:00",
-      "last_seen": "2026-08-05T22:56:46.765709+00:00",
+      "last_seen": "2026-08-07T14:16:06.425705+00:00",
       "latest_price": 2890,
-      "previous_price": 2830,
-      "price_change": 60,
+      "previous_price": 2890,
+      "price_change": 0,
       "min_price": 2810,
       "max_price": 2985
     },
@@ -7326,464 +7836,6 @@
       "price_change": 0,
       "min_price": 2898,
       "max_price": 2988
-    },
-    {
-      "unit_id": "AVB-NJ044-002-134",
-      "unit_name": "134",
-      "floor_plan": "AM19",
-      "collection": "Upgraded Collection",
-      "unit_url": "https://www.avaloncommunities.com/new-jersey/princeton-apartments/avalon-princeton-circle/apartment/NJ044-NJ044-002-134",
-      "observations": [
-        {
-          "generated_at": "2026-03-29T05:39:10.208456+00:00",
-          "price": 2738,
-          "start_date": "2026-03-30",
-          "lease_term_months": 10,
-          "unit_status": "VacantAvailable"
-        },
-        {
-          "generated_at": "2026-03-30T13:25:28.898899+00:00",
-          "price": 2738,
-          "start_date": "2026-03-31",
-          "lease_term_months": 10,
-          "unit_status": "VacantAvailable"
-        },
-        {
-          "generated_at": "2026-03-30T21:48:09.894373+00:00",
-          "price": 2738,
-          "start_date": "2026-03-31",
-          "lease_term_months": 10,
-          "unit_status": "VacantAvailable"
-        },
-        {
-          "generated_at": "2026-03-31T13:17:35.954395+00:00",
-          "price": 2738,
-          "start_date": "2026-04-01",
-          "lease_term_months": 10,
-          "unit_status": "VacantAvailable"
-        },
-        {
-          "generated_at": "2026-03-31T21:38:46.625866+00:00",
-          "price": 2738,
-          "start_date": "2026-04-01",
-          "lease_term_months": 10,
-          "unit_status": "VacantAvailable"
-        },
-        {
-          "generated_at": "2026-04-01T13:20:57.397552+00:00",
-          "price": 2738,
-          "start_date": "2026-04-02",
-          "lease_term_months": 10,
-          "unit_status": "VacantAvailable"
-        },
-        {
-          "generated_at": "2026-04-01T13:44:38.272952+00:00",
-          "price": 2738,
-          "start_date": "2026-04-02",
-          "lease_term_months": 10,
-          "unit_status": "VacantAvailable"
-        },
-        {
-          "generated_at": "2026-04-01T22:36:46.842333+00:00",
-          "price": 2738,
-          "start_date": "2026-04-02",
-          "lease_term_months": 10,
-          "unit_status": "VacantAvailable"
-        },
-        {
-          "generated_at": "2026-04-02T14:55:59.962772+00:00",
-          "price": 2738,
-          "start_date": "2026-04-03",
-          "lease_term_months": 10,
-          "unit_status": "VacantAvailable"
-        },
-        {
-          "generated_at": "2026-04-02T22:30:50.079794+00:00",
-          "price": 2738,
-          "start_date": "2026-04-03",
-          "lease_term_months": 10,
-          "unit_status": "VacantAvailable"
-        },
-        {
-          "generated_at": "2026-04-03T14:41:39.790786+00:00",
-          "price": 2738,
-          "start_date": "2026-04-04",
-          "lease_term_months": 10,
-          "unit_status": "VacantAvailable"
-        },
-        {
-          "generated_at": "2026-04-03T22:32:37.870855+00:00",
-          "price": 2738,
-          "start_date": "2026-04-04",
-          "lease_term_months": 10,
-          "unit_status": "VacantAvailable"
-        },
-        {
-          "generated_at": "2026-04-04T14:33:19.979388+00:00",
-          "price": 2738,
-          "start_date": "2026-04-05",
-          "lease_term_months": 10,
-          "unit_status": "VacantAvailable"
-        },
-        {
-          "generated_at": "2026-04-04T22:28:48.265801+00:00",
-          "price": 2738,
-          "start_date": "2026-04-05",
-          "lease_term_months": 10,
-          "unit_status": "VacantAvailable"
-        },
-        {
-          "generated_at": "2026-04-05T14:36:36.154661+00:00",
-          "price": 2738,
-          "start_date": "2026-04-06",
-          "lease_term_months": 10,
-          "unit_status": "VacantAvailable"
-        },
-        {
-          "generated_at": "2026-04-05T22:30:07.709452+00:00",
-          "price": 2738,
-          "start_date": "2026-04-06",
-          "lease_term_months": 10,
-          "unit_status": "VacantAvailable"
-        },
-        {
-          "generated_at": "2026-04-06T14:46:08.468049+00:00",
-          "price": 2738,
-          "start_date": "2026-04-07",
-          "lease_term_months": 10,
-          "unit_status": "VacantAvailable"
-        },
-        {
-          "generated_at": "2026-04-06T22:35:53.247585+00:00",
-          "price": 2738,
-          "start_date": "2026-04-07",
-          "lease_term_months": 10,
-          "unit_status": "VacantAvailable"
-        },
-        {
-          "generated_at": "2026-04-07T22:37:27.811077+00:00",
-          "price": 2758,
-          "start_date": "2026-04-08",
-          "lease_term_months": 10,
-          "unit_status": "VacantAvailable"
-        },
-        {
-          "generated_at": "2026-04-08T22:38:30.456265+00:00",
-          "price": 2758,
-          "start_date": "2026-04-09",
-          "lease_term_months": 10,
-          "unit_status": "VacantAvailable"
-        },
-        {
-          "generated_at": "2026-04-09T14:03:22.802687+00:00",
-          "price": 2758,
-          "start_date": "2026-04-10",
-          "lease_term_months": 10,
-          "unit_status": "VacantAvailable"
-        },
-        {
-          "generated_at": "2026-04-09T22:39:59.729124+00:00",
-          "price": 2758,
-          "start_date": "2026-04-10",
-          "lease_term_months": 10,
-          "unit_status": "VacantAvailable"
-        },
-        {
-          "generated_at": "2026-04-10T14:47:52.244070+00:00",
-          "price": 2758,
-          "start_date": "2026-04-11",
-          "lease_term_months": 10,
-          "unit_status": "VacantAvailable"
-        },
-        {
-          "generated_at": "2026-04-10T22:36:56.704903+00:00",
-          "price": 2758,
-          "start_date": "2026-04-11",
-          "lease_term_months": 10,
-          "unit_status": "VacantAvailable"
-        },
-        {
-          "generated_at": "2026-04-11T14:39:32.670032+00:00",
-          "price": 2758,
-          "start_date": "2026-04-12",
-          "lease_term_months": 10,
-          "unit_status": "VacantAvailable"
-        },
-        {
-          "generated_at": "2026-04-11T22:31:58.719520+00:00",
-          "price": 2758,
-          "start_date": "2026-04-12",
-          "lease_term_months": 10,
-          "unit_status": "VacantAvailable"
-        },
-        {
-          "generated_at": "2026-04-12T14:38:29.807285+00:00",
-          "price": 2758,
-          "start_date": "2026-04-13",
-          "lease_term_months": 10,
-          "unit_status": "VacantAvailable"
-        },
-        {
-          "generated_at": "2026-04-12T22:34:16.269528+00:00",
-          "price": 2758,
-          "start_date": "2026-04-13",
-          "lease_term_months": 10,
-          "unit_status": "VacantAvailable"
-        },
-        {
-          "generated_at": "2026-04-13T14:48:17.147678+00:00",
-          "price": 2758,
-          "start_date": "2026-04-14",
-          "lease_term_months": 10,
-          "unit_status": "VacantAvailable"
-        },
-        {
-          "generated_at": "2026-04-13T22:42:24.547120+00:00",
-          "price": 2758,
-          "start_date": "2026-04-14",
-          "lease_term_months": 10,
-          "unit_status": "VacantAvailable"
-        },
-        {
-          "generated_at": "2026-04-14T22:44:13.192315+00:00",
-          "price": 2753,
-          "start_date": "2026-04-15",
-          "lease_term_months": 10,
-          "unit_status": "VacantAvailable"
-        },
-        {
-          "generated_at": "2026-04-15T14:44:08.641801+00:00",
-          "price": 2753,
-          "start_date": "2026-04-16",
-          "lease_term_months": 10,
-          "unit_status": "VacantAvailable"
-        },
-        {
-          "generated_at": "2026-04-15T22:40:16.848029+00:00",
-          "price": 2753,
-          "start_date": "2026-04-16",
-          "lease_term_months": 10,
-          "unit_status": "VacantAvailable"
-        },
-        {
-          "generated_at": "2026-04-16T22:39:02.741561+00:00",
-          "price": 2753,
-          "start_date": "2026-04-17",
-          "lease_term_months": 10,
-          "unit_status": "VacantAvailable"
-        },
-        {
-          "generated_at": "2026-04-17T14:55:22.049983+00:00",
-          "price": 2753,
-          "start_date": "2026-04-18",
-          "lease_term_months": 10,
-          "unit_status": "VacantAvailable"
-        },
-        {
-          "generated_at": "2026-04-17T22:38:09.027300+00:00",
-          "price": 2753,
-          "start_date": "2026-04-18",
-          "lease_term_months": 10,
-          "unit_status": "VacantAvailable"
-        },
-        {
-          "generated_at": "2026-04-18T14:38:52.911215+00:00",
-          "price": 2753,
-          "start_date": "2026-04-19",
-          "lease_term_months": 10,
-          "unit_status": "VacantAvailable"
-        },
-        {
-          "generated_at": "2026-04-18T22:34:26.426619+00:00",
-          "price": 2753,
-          "start_date": "2026-04-19",
-          "lease_term_months": 10,
-          "unit_status": "VacantAvailable"
-        },
-        {
-          "generated_at": "2026-04-19T14:38:53.883468+00:00",
-          "price": 2753,
-          "start_date": "2026-04-20",
-          "lease_term_months": 10,
-          "unit_status": "VacantAvailable"
-        },
-        {
-          "generated_at": "2026-04-19T22:35:20.472597+00:00",
-          "price": 2753,
-          "start_date": "2026-04-20",
-          "lease_term_months": 10,
-          "unit_status": "VacantAvailable"
-        },
-        {
-          "generated_at": "2026-04-20T14:50:16.072197+00:00",
-          "price": 2753,
-          "start_date": "2026-04-21",
-          "lease_term_months": 10,
-          "unit_status": "VacantAvailable"
-        },
-        {
-          "generated_at": "2026-04-20T22:42:25.982257+00:00",
-          "price": 2753,
-          "start_date": "2026-04-21",
-          "lease_term_months": 10,
-          "unit_status": "VacantAvailable"
-        },
-        {
-          "generated_at": "2026-04-21T22:37:18.584842+00:00",
-          "price": 2753,
-          "start_date": "2026-04-22",
-          "lease_term_months": 10,
-          "unit_status": "VacantAvailable"
-        },
-        {
-          "generated_at": "2026-04-22T22:46:58.835215+00:00",
-          "price": 2753,
-          "start_date": "2026-04-23",
-          "lease_term_months": 10,
-          "unit_status": "VacantAvailable"
-        },
-        {
-          "generated_at": "2026-04-23T22:43:01.440056+00:00",
-          "price": 2833,
-          "start_date": "2026-04-24",
-          "lease_term_months": 10,
-          "unit_status": "VacantAvailable"
-        },
-        {
-          "generated_at": "2026-07-19T14:54:08.510792+00:00",
-          "price": 2838,
-          "start_date": "2026-08-03",
-          "lease_term_months": 13,
-          "unit_status": "NoticeAvailable"
-        },
-        {
-          "generated_at": "2026-07-19T22:50:23.831683+00:00",
-          "price": 2838,
-          "start_date": "2026-08-03",
-          "lease_term_months": 13,
-          "unit_status": "NoticeAvailable"
-        },
-        {
-          "generated_at": "2026-07-21T22:55:09.008128+00:00",
-          "price": 2788,
-          "start_date": "2026-08-03",
-          "lease_term_months": 13,
-          "unit_status": "NoticeAvailable"
-        },
-        {
-          "generated_at": "2026-07-23T22:54:43.726306+00:00",
-          "price": 2823,
-          "start_date": "2026-08-03",
-          "lease_term_months": 13,
-          "unit_status": "NoticeAvailable"
-        },
-        {
-          "generated_at": "2026-07-24T22:59:47.084064+00:00",
-          "price": 2868,
-          "start_date": "2026-08-03",
-          "lease_term_months": 13,
-          "unit_status": "NoticeAvailable"
-        },
-        {
-          "generated_at": "2026-07-25T22:54:17.468217+00:00",
-          "price": 2908,
-          "start_date": "2026-08-03",
-          "lease_term_months": 13,
-          "unit_status": "VacantAvailable"
-        },
-        {
-          "generated_at": "2026-07-27T22:05:15.652348+00:00",
-          "price": 2808,
-          "start_date": "2026-08-03",
-          "lease_term_months": 13,
-          "unit_status": "VacantAvailable"
-        },
-        {
-          "generated_at": "2026-07-28T22:56:29.700677+00:00",
-          "price": 2773,
-          "start_date": "2026-08-03",
-          "lease_term_months": 13,
-          "unit_status": "VacantAvailable"
-        },
-        {
-          "generated_at": "2026-07-29T14:26:25.404134+00:00",
-          "price": 2788,
-          "start_date": "2026-08-03",
-          "lease_term_months": 13,
-          "unit_status": "VacantAvailable"
-        },
-        {
-          "generated_at": "2026-07-31T14:25:14.011649+00:00",
-          "price": 2823,
-          "start_date": "2026-08-07",
-          "lease_term_months": 13,
-          "unit_status": "VacantAvailable"
-        },
-        {
-          "generated_at": "2026-07-31T22:03:41.347666+00:00",
-          "price": 2823,
-          "start_date": "2026-08-07",
-          "lease_term_months": 13,
-          "unit_status": "VacantAvailable"
-        },
-        {
-          "generated_at": "2026-08-01T14:58:51.842103+00:00",
-          "price": 2738,
-          "start_date": "2026-08-07",
-          "lease_term_months": 13,
-          "unit_status": "VacantAvailable"
-        },
-        {
-          "generated_at": "2026-08-01T22:53:46.955967+00:00",
-          "price": 2738,
-          "start_date": "2026-08-07",
-          "lease_term_months": 13,
-          "unit_status": "VacantAvailable"
-        },
-        {
-          "generated_at": "2026-08-02T14:27:51.386698+00:00",
-          "price": 2788,
-          "start_date": "2026-08-07",
-          "lease_term_months": 13,
-          "unit_status": "VacantAvailable"
-        },
-        {
-          "generated_at": "2026-08-02T22:55:19.978086+00:00",
-          "price": 2788,
-          "start_date": "2026-08-07",
-          "lease_term_months": 13,
-          "unit_status": "VacantAvailable"
-        },
-        {
-          "generated_at": "2026-08-03T22:07:40.353410+00:00",
-          "price": 2808,
-          "start_date": "2026-08-07",
-          "lease_term_months": 13,
-          "unit_status": "VacantAvailable"
-        },
-        {
-          "generated_at": "2026-08-04T22:09:52.885073+00:00",
-          "price": 2713,
-          "start_date": "2026-08-07",
-          "lease_term_months": 13,
-          "unit_status": "VacantAvailable"
-        },
-        {
-          "generated_at": "2026-08-05T22:56:46.765709+00:00",
-          "price": 2963,
-          "start_date": "2026-08-07",
-          "lease_term_months": 10,
-          "unit_status": "VacantAvailable"
-        }
-      ],
-      "observation_count": 63,
-      "first_seen": "2026-03-29T05:39:10.208456+00:00",
-      "last_seen": "2026-08-05T22:56:46.765709+00:00",
-      "latest_price": 2963,
-      "previous_price": 2713,
-      "price_change": 250,
-      "min_price": 2713,
-      "max_price": 2963
     },
     {
       "unit_id": "AVB-NJ044-002-433",
@@ -9298,11 +9350,18 @@
           "start_date": "2026-10-06",
           "lease_term_months": 11,
           "unit_status": "NoticeAvailable"
+        },
+        {
+          "generated_at": "2026-08-07T14:16:06.425705+00:00",
+          "price": 3510,
+          "start_date": "2026-10-06",
+          "lease_term_months": 11,
+          "unit_status": "NoticeAvailable"
         }
       ],
-      "observation_count": 34,
+      "observation_count": 35,
       "first_seen": "2026-07-07T22:59:41.153644+00:00",
-      "last_seen": "2026-08-05T22:56:46.765709+00:00",
+      "last_seen": "2026-08-07T14:16:06.425705+00:00",
       "latest_price": 3510,
       "previous_price": 3510,
       "price_change": 0,
@@ -9427,11 +9486,18 @@
           "start_date": "2026-09-29",
           "lease_term_months": 11,
           "unit_status": "NoticeAvailable"
+        },
+        {
+          "generated_at": "2026-08-07T14:16:06.425705+00:00",
+          "price": 3520,
+          "start_date": "2026-09-29",
+          "lease_term_months": 11,
+          "unit_status": "NoticeAvailable"
         }
       ],
-      "observation_count": 16,
+      "observation_count": 17,
       "first_seen": "2026-07-21T22:55:09.008128+00:00",
-      "last_seen": "2026-08-05T22:56:46.765709+00:00",
+      "last_seen": "2026-08-07T14:16:06.425705+00:00",
       "latest_price": 3520,
       "previous_price": 3520,
       "price_change": 0,
@@ -10063,14 +10129,21 @@
           "start_date": "2026-08-26",
           "lease_term_months": 13,
           "unit_status": "NoticeAvailable"
+        },
+        {
+          "generated_at": "2026-08-07T14:16:06.425705+00:00",
+          "price": 3678,
+          "start_date": "2026-08-26",
+          "lease_term_months": 13,
+          "unit_status": "NoticeAvailable"
         }
       ],
-      "observation_count": 65,
+      "observation_count": 66,
       "first_seen": "2026-05-22T22:07:52.395307+00:00",
-      "last_seen": "2026-08-05T22:56:46.765709+00:00",
-      "latest_price": 3853,
-      "previous_price": 3658,
-      "price_change": 195,
+      "last_seen": "2026-08-07T14:16:06.425705+00:00",
+      "latest_price": 3678,
+      "previous_price": 3853,
+      "price_change": -175,
       "min_price": 3323,
       "max_price": 3853
     }
