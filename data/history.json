@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T14:42:25.992917+00:00",
+  "generated_at": "2026-08-25T22:24:43.217064+00:00",
   "source_url": "https://www.avaloncommunities.com/new-jersey/princeton-apartments/avalon-princeton-circle/",
   "schedule_timezone": "EST",
   "scheduled_hours_local": [
@@ -3815,14 +3815,21 @@
           "start_date": "2026-11-08",
           "lease_term_months": 22,
           "unit_status": "NoticeAvailable"
+        },
+        {
+          "generated_at": "2026-08-25T22:24:43.217064+00:00",
+          "price": 2805,
+          "start_date": "2026-11-08",
+          "lease_term_months": 22,
+          "unit_status": "NoticeAvailable"
         }
       ],
-      "observation_count": 55,
+      "observation_count": 56,
       "first_seen": "2026-07-19T14:54:08.510792+00:00",
-      "last_seen": "2026-08-25T14:42:25.992917+00:00",
+      "last_seen": "2026-08-25T22:24:43.217064+00:00",
       "latest_price": 2805,
-      "previous_price": 2735,
-      "price_change": 70,
+      "previous_price": 2805,
+      "price_change": 0,
       "min_price": 2685,
       "max_price": 2895
     },
@@ -8285,14 +8292,21 @@
           "start_date": "2026-09-13",
           "lease_term_months": 24,
           "unit_status": "NoticeAvailable"
+        },
+        {
+          "generated_at": "2026-08-25T22:24:43.217064+00:00",
+          "price": 2928,
+          "start_date": "2026-09-13",
+          "lease_term_months": 24,
+          "unit_status": "NoticeAvailable"
         }
       ],
-      "observation_count": 83,
+      "observation_count": 84,
       "first_seen": "2026-06-20T22:05:25.064852+00:00",
-      "last_seen": "2026-08-25T14:42:25.992917+00:00",
+      "last_seen": "2026-08-25T22:24:43.217064+00:00",
       "latest_price": 2928,
-      "previous_price": 2883,
-      "price_change": 45,
+      "previous_price": 2928,
+      "price_change": 0,
       "min_price": 2673,
       "max_price": 2943
     },
@@ -8876,14 +8890,21 @@
           "start_date": "2026-09-03",
           "lease_term_months": 14,
           "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-08-25T22:24:43.217064+00:00",
+          "price": 3045,
+          "start_date": "2026-09-03",
+          "lease_term_months": 14,
+          "unit_status": "VacantAvailable"
         }
       ],
-      "observation_count": 82,
+      "observation_count": 83,
       "first_seen": "2026-06-22T22:01:14.588851+00:00",
-      "last_seen": "2026-08-25T14:42:25.992917+00:00",
+      "last_seen": "2026-08-25T22:24:43.217064+00:00",
       "latest_price": 3045,
-      "previous_price": 3040,
-      "price_change": 5,
+      "previous_price": 3045,
+      "price_change": 0,
       "min_price": 2810,
       "max_price": 3140
     },
@@ -10383,14 +10404,21 @@
           "start_date": "2026-10-06",
           "lease_term_months": 11,
           "unit_status": "NoticeAvailable"
+        },
+        {
+          "generated_at": "2026-08-25T22:24:43.217064+00:00",
+          "price": 3320,
+          "start_date": "2026-10-06",
+          "lease_term_months": 11,
+          "unit_status": "NoticeAvailable"
         }
       ],
-      "observation_count": 71,
+      "observation_count": 72,
       "first_seen": "2026-07-07T22:59:41.153644+00:00",
-      "last_seen": "2026-08-25T14:42:25.992917+00:00",
+      "last_seen": "2026-08-25T22:24:43.217064+00:00",
       "latest_price": 3320,
-      "previous_price": 3325,
-      "price_change": -5,
+      "previous_price": 3320,
+      "price_change": 0,
       "min_price": 3275,
       "max_price": 3585
     },
@@ -10771,14 +10799,21 @@
           "start_date": "2026-09-29",
           "lease_term_months": 11,
           "unit_status": "NoticeAvailable"
+        },
+        {
+          "generated_at": "2026-08-25T22:24:43.217064+00:00",
+          "price": 3330,
+          "start_date": "2026-09-29",
+          "lease_term_months": 11,
+          "unit_status": "NoticeAvailable"
         }
       ],
-      "observation_count": 53,
+      "observation_count": 54,
       "first_seen": "2026-07-21T22:55:09.008128+00:00",
-      "last_seen": "2026-08-25T14:42:25.992917+00:00",
+      "last_seen": "2026-08-25T22:24:43.217064+00:00",
       "latest_price": 3330,
-      "previous_price": 3335,
-      "price_change": -5,
+      "previous_price": 3330,
+      "price_change": 0,
       "min_price": 3225,
       "max_price": 3575
     },
