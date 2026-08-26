@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T22:24:43.217064+00:00",
+  "generated_at": "2026-08-26T14:42:01.735285+00:00",
   "source_url": "https://www.avaloncommunities.com/new-jersey/princeton-apartments/avalon-princeton-circle/",
   "schedule_timezone": "EST",
   "scheduled_hours_local": [
@@ -3822,11 +3822,18 @@
           "start_date": "2026-11-08",
           "lease_term_months": 22,
           "unit_status": "NoticeAvailable"
+        },
+        {
+          "generated_at": "2026-08-26T14:42:01.735285+00:00",
+          "price": 2805,
+          "start_date": "2026-11-08",
+          "lease_term_months": 22,
+          "unit_status": "NoticeAvailable"
         }
       ],
-      "observation_count": 56,
+      "observation_count": 57,
       "first_seen": "2026-07-19T14:54:08.510792+00:00",
-      "last_seen": "2026-08-25T22:24:43.217064+00:00",
+      "last_seen": "2026-08-26T14:42:01.735285+00:00",
       "latest_price": 2805,
       "previous_price": 2805,
       "price_change": 0,
@@ -8299,11 +8306,18 @@
           "start_date": "2026-09-13",
           "lease_term_months": 24,
           "unit_status": "NoticeAvailable"
+        },
+        {
+          "generated_at": "2026-08-26T14:42:01.735285+00:00",
+          "price": 2928,
+          "start_date": "2026-09-13",
+          "lease_term_months": 24,
+          "unit_status": "NoticeAvailable"
         }
       ],
-      "observation_count": 84,
+      "observation_count": 85,
       "first_seen": "2026-06-20T22:05:25.064852+00:00",
-      "last_seen": "2026-08-25T22:24:43.217064+00:00",
+      "last_seen": "2026-08-26T14:42:01.735285+00:00",
       "latest_price": 2928,
       "previous_price": 2928,
       "price_change": 0,
@@ -8897,14 +8911,21 @@
           "start_date": "2026-09-03",
           "lease_term_months": 14,
           "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-08-26T14:42:01.735285+00:00",
+          "price": 3005,
+          "start_date": "2026-09-03",
+          "lease_term_months": 14,
+          "unit_status": "VacantAvailable"
         }
       ],
-      "observation_count": 83,
+      "observation_count": 84,
       "first_seen": "2026-06-22T22:01:14.588851+00:00",
-      "last_seen": "2026-08-25T22:24:43.217064+00:00",
-      "latest_price": 3045,
+      "last_seen": "2026-08-26T14:42:01.735285+00:00",
+      "latest_price": 3005,
       "previous_price": 3045,
-      "price_change": 0,
+      "price_change": -40,
       "min_price": 2810,
       "max_price": 3140
     },
@@ -10411,11 +10432,18 @@
           "start_date": "2026-10-06",
           "lease_term_months": 11,
           "unit_status": "NoticeAvailable"
+        },
+        {
+          "generated_at": "2026-08-26T14:42:01.735285+00:00",
+          "price": 3320,
+          "start_date": "2026-10-06",
+          "lease_term_months": 11,
+          "unit_status": "NoticeAvailable"
         }
       ],
-      "observation_count": 72,
+      "observation_count": 73,
       "first_seen": "2026-07-07T22:59:41.153644+00:00",
-      "last_seen": "2026-08-25T22:24:43.217064+00:00",
+      "last_seen": "2026-08-26T14:42:01.735285+00:00",
       "latest_price": 3320,
       "previous_price": 3320,
       "price_change": 0,
@@ -10806,11 +10834,18 @@
           "start_date": "2026-09-29",
           "lease_term_months": 11,
           "unit_status": "NoticeAvailable"
+        },
+        {
+          "generated_at": "2026-08-26T14:42:01.735285+00:00",
+          "price": 3330,
+          "start_date": "2026-09-29",
+          "lease_term_months": 11,
+          "unit_status": "NoticeAvailable"
         }
       ],
-      "observation_count": 54,
+      "observation_count": 55,
       "first_seen": "2026-07-21T22:55:09.008128+00:00",
-      "last_seen": "2026-08-25T22:24:43.217064+00:00",
+      "last_seen": "2026-08-26T14:42:01.735285+00:00",
       "latest_price": 3330,
       "previous_price": 3330,
       "price_change": 0,
