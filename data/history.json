@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T22:59:24.226535+00:00",
+  "generated_at": "2026-09-22T14:20:34.139860+00:00",
   "source_url": "https://www.avaloncommunities.com/new-jersey/princeton-apartments/avalon-princeton-circle/",
   "schedule_timezone": "EST",
   "scheduled_hours_local": [
@@ -2647,11 +2647,18 @@
           "start_date": "2026-09-21",
           "lease_term_months": 24,
           "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-09-22T14:20:34.139860+00:00",
+          "price": 2778,
+          "start_date": "2026-09-23",
+          "lease_term_months": 24,
+          "unit_status": "VacantAvailable"
         }
       ],
-      "observation_count": 102,
+      "observation_count": 103,
       "first_seen": "2026-06-20T22:05:25.064852+00:00",
-      "last_seen": "2026-09-20T22:59:24.226535+00:00",
+      "last_seen": "2026-09-22T14:20:34.139860+00:00",
       "latest_price": 2778,
       "previous_price": 2778,
       "price_change": 0,
@@ -5924,11 +5931,18 @@
           "start_date": "2026-09-21",
           "lease_term_months": 24,
           "unit_status": "VacantAvailable"
+        },
+        {
+          "generated_at": "2026-09-22T14:20:34.139860+00:00",
+          "price": 2815,
+          "start_date": "2026-09-23",
+          "lease_term_months": 24,
+          "unit_status": "VacantAvailable"
         }
       ],
-      "observation_count": 101,
+      "observation_count": 102,
       "first_seen": "2026-06-22T22:01:14.588851+00:00",
-      "last_seen": "2026-09-20T22:59:24.226535+00:00",
+      "last_seen": "2026-09-22T14:20:34.139860+00:00",
       "latest_price": 2815,
       "previous_price": 2815,
       "price_change": 0,
@@ -6816,6 +6830,30 @@
       "max_price": 2895
     },
     {
+      "unit_id": "AVB-NJ044-002-308",
+      "unit_name": "308",
+      "floor_plan": "A2-002-208",
+      "collection": "Upgraded Collection",
+      "unit_url": "https://www.avaloncommunities.com/new-jersey/princeton-apartments/avalon-princeton-circle/apartment/NJ044-NJ044-002-308",
+      "observations": [
+        {
+          "generated_at": "2026-09-22T14:20:34.139860+00:00",
+          "price": 2825,
+          "start_date": "2027-01-03",
+          "lease_term_months": 20,
+          "unit_status": "NoticeAvailable"
+        }
+      ],
+      "observation_count": 1,
+      "first_seen": "2026-09-22T14:20:34.139860+00:00",
+      "last_seen": "2026-09-22T14:20:34.139860+00:00",
+      "latest_price": 2825,
+      "previous_price": null,
+      "price_change": null,
+      "min_price": 2825,
+      "max_price": 2825
+    },
+    {
       "unit_id": "AVB-NJ044-002-218",
       "unit_name": "218",
       "floor_plan": "A4-002-102",
@@ -7618,11 +7656,18 @@
           "start_date": "2026-10-28",
           "lease_term_months": 22,
           "unit_status": "NoticeAvailable"
+        },
+        {
+          "generated_at": "2026-09-22T14:20:34.139860+00:00",
+          "price": 2854,
+          "start_date": "2026-10-28",
+          "lease_term_months": 22,
+          "unit_status": "NoticeAvailable"
         }
       ],
-      "observation_count": 6,
+      "observation_count": 7,
       "first_seen": "2026-09-17T22:48:00.761029+00:00",
-      "last_seen": "2026-09-20T22:59:24.226535+00:00",
+      "last_seen": "2026-09-22T14:20:34.139860+00:00",
       "latest_price": 2854,
       "previous_price": 2854,
       "price_change": 0,
@@ -9365,16 +9410,89 @@
           "start_date": "2026-11-27",
           "lease_term_months": 10,
           "unit_status": "NoticeAvailable"
+        },
+        {
+          "generated_at": "2026-09-22T14:20:34.139860+00:00",
+          "price": 2963,
+          "start_date": "2026-11-27",
+          "lease_term_months": 10,
+          "unit_status": "NoticeAvailable"
         }
       ],
-      "observation_count": 17,
+      "observation_count": 18,
       "first_seen": "2026-08-29T22:21:57.841935+00:00",
-      "last_seen": "2026-09-20T22:59:24.226535+00:00",
-      "latest_price": 2983,
+      "last_seen": "2026-09-22T14:20:34.139860+00:00",
+      "latest_price": 2963,
       "previous_price": 2983,
-      "price_change": 0,
-      "min_price": 2983,
+      "price_change": -20,
+      "min_price": 2963,
       "max_price": 3233
+    },
+    {
+      "unit_id": "AVB-NJ044-002-234",
+      "unit_name": "234",
+      "floor_plan": "AM20D-002-234",
+      "collection": "Upgraded Collection",
+      "unit_url": "https://www.avaloncommunities.com/new-jersey/princeton-apartments/avalon-princeton-circle/apartment/NJ044-NJ044-002-234",
+      "observations": [
+        {
+          "generated_at": "2026-09-17T22:48:00.761029+00:00",
+          "price": 3050,
+          "start_date": "2026-11-27",
+          "lease_term_months": 10,
+          "unit_status": "NoticeAvailable"
+        },
+        {
+          "generated_at": "2026-09-18T22:18:43.123774+00:00",
+          "price": 3025,
+          "start_date": "2026-11-27",
+          "lease_term_months": 10,
+          "unit_status": "NoticeAvailable"
+        },
+        {
+          "generated_at": "2026-09-19T14:10:54.492319+00:00",
+          "price": 3025,
+          "start_date": "2026-11-27",
+          "lease_term_months": 10,
+          "unit_status": "NoticeAvailable"
+        },
+        {
+          "generated_at": "2026-09-19T22:40:26.442283+00:00",
+          "price": 3025,
+          "start_date": "2026-11-27",
+          "lease_term_months": 10,
+          "unit_status": "NoticeAvailable"
+        },
+        {
+          "generated_at": "2026-09-20T14:29:53.410088+00:00",
+          "price": 3015,
+          "start_date": "2026-11-27",
+          "lease_term_months": 10,
+          "unit_status": "NoticeAvailable"
+        },
+        {
+          "generated_at": "2026-09-20T22:59:24.226535+00:00",
+          "price": 3015,
+          "start_date": "2026-11-27",
+          "lease_term_months": 10,
+          "unit_status": "NoticeAvailable"
+        },
+        {
+          "generated_at": "2026-09-22T14:20:34.139860+00:00",
+          "price": 2995,
+          "start_date": "2026-11-27",
+          "lease_term_months": 10,
+          "unit_status": "NoticeAvailable"
+        }
+      ],
+      "observation_count": 7,
+      "first_seen": "2026-09-17T22:48:00.761029+00:00",
+      "last_seen": "2026-09-22T14:20:34.139860+00:00",
+      "latest_price": 2995,
+      "previous_price": 3015,
+      "price_change": -20,
+      "min_price": 2995,
+      "max_price": 3050
     },
     {
       "unit_id": "AVB-NJ044-003-303",
@@ -10012,11 +10130,18 @@
           "start_date": "2026-10-06",
           "lease_term_months": 11,
           "unit_status": "NoticeAvailable"
+        },
+        {
+          "generated_at": "2026-09-22T14:20:34.139860+00:00",
+          "price": 2995,
+          "start_date": "2026-10-06",
+          "lease_term_months": 11,
+          "unit_status": "NoticeAvailable"
         }
       ],
-      "observation_count": 90,
+      "observation_count": 91,
       "first_seen": "2026-07-07T22:59:41.153644+00:00",
-      "last_seen": "2026-09-20T22:59:24.226535+00:00",
+      "last_seen": "2026-09-22T14:20:34.139860+00:00",
       "latest_price": 2995,
       "previous_price": 2995,
       "price_change": 0,
@@ -10533,75 +10658,23 @@
           "start_date": "2026-09-29",
           "lease_term_months": 11,
           "unit_status": "NoticeAvailable"
+        },
+        {
+          "generated_at": "2026-09-22T14:20:34.139860+00:00",
+          "price": 3005,
+          "start_date": "2026-09-29",
+          "lease_term_months": 11,
+          "unit_status": "NoticeAvailable"
         }
       ],
-      "observation_count": 72,
+      "observation_count": 73,
       "first_seen": "2026-07-21T22:55:09.008128+00:00",
-      "last_seen": "2026-09-20T22:59:24.226535+00:00",
+      "last_seen": "2026-09-22T14:20:34.139860+00:00",
       "latest_price": 3005,
       "previous_price": 3005,
       "price_change": 0,
       "min_price": 3005,
       "max_price": 3575
-    },
-    {
-      "unit_id": "AVB-NJ044-002-234",
-      "unit_name": "234",
-      "floor_plan": "AM20D-002-234",
-      "collection": "Upgraded Collection",
-      "unit_url": "https://www.avaloncommunities.com/new-jersey/princeton-apartments/avalon-princeton-circle/apartment/NJ044-NJ044-002-234",
-      "observations": [
-        {
-          "generated_at": "2026-09-17T22:48:00.761029+00:00",
-          "price": 3050,
-          "start_date": "2026-11-27",
-          "lease_term_months": 10,
-          "unit_status": "NoticeAvailable"
-        },
-        {
-          "generated_at": "2026-09-18T22:18:43.123774+00:00",
-          "price": 3025,
-          "start_date": "2026-11-27",
-          "lease_term_months": 10,
-          "unit_status": "NoticeAvailable"
-        },
-        {
-          "generated_at": "2026-09-19T14:10:54.492319+00:00",
-          "price": 3025,
-          "start_date": "2026-11-27",
-          "lease_term_months": 10,
-          "unit_status": "NoticeAvailable"
-        },
-        {
-          "generated_at": "2026-09-19T22:40:26.442283+00:00",
-          "price": 3025,
-          "start_date": "2026-11-27",
-          "lease_term_months": 10,
-          "unit_status": "NoticeAvailable"
-        },
-        {
-          "generated_at": "2026-09-20T14:29:53.410088+00:00",
-          "price": 3015,
-          "start_date": "2026-11-27",
-          "lease_term_months": 10,
-          "unit_status": "NoticeAvailable"
-        },
-        {
-          "generated_at": "2026-09-20T22:59:24.226535+00:00",
-          "price": 3015,
-          "start_date": "2026-11-27",
-          "lease_term_months": 10,
-          "unit_status": "NoticeAvailable"
-        }
-      ],
-      "observation_count": 6,
-      "first_seen": "2026-09-17T22:48:00.761029+00:00",
-      "last_seen": "2026-09-20T22:59:24.226535+00:00",
-      "latest_price": 3015,
-      "previous_price": 3015,
-      "price_change": 0,
-      "min_price": 3015,
-      "max_price": 3050
     },
     {
       "unit_id": "AVB-NJ044-003-308",
@@ -10875,11 +10948,18 @@
           "start_date": "2026-10-23",
           "lease_term_months": 23,
           "unit_status": "NoticeAvailable"
+        },
+        {
+          "generated_at": "2026-09-22T14:20:34.139860+00:00",
+          "price": 3150,
+          "start_date": "2026-10-23",
+          "lease_term_months": 23,
+          "unit_status": "NoticeAvailable"
         }
       ],
-      "observation_count": 38,
+      "observation_count": 39,
       "first_seen": "2026-06-04T22:20:19.900125+00:00",
-      "last_seen": "2026-09-20T22:59:24.226535+00:00",
+      "last_seen": "2026-09-22T14:20:34.139860+00:00",
       "latest_price": 3150,
       "previous_price": 3150,
       "price_change": 0,
